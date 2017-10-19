@@ -12,6 +12,15 @@
 		<h1>Goal</h1>
 		<p>To act as a portfolio to display my work, and inform potential clients about my services.</p>
 		<h1>Persona</h1>
-
+		<ul>
+			<li>Name: Scott Mayforth</li>
+			<li>Age: 39</li>
+			<li>Education: MBA </li>
+			<li>Occupation: Accountant</li>
+			<li>Technology: Microsoft Surface Pro 4, custom PC Workstation</li>
+			<li>Hobbies: Fitness</li>
+			<li>Relationship Status: Single</li>
+		</ul>
+		<p></p>
 	</body>
 </html>
