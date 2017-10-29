@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="en">
+	<!--Potential Fonts - Ubuntu, Raleway, Roboto Condensed, Fjalla One, Inconsolata, Asap-->
 	<head>
 		<meta charset="utf-8" />
 		<title>Nick Pascetti's PWP milestone 2a</title>
@@ -13,6 +14,8 @@
 		<p>A section listing the services I offer.</p>
 		<p>Web design and development, UI, UX, Responsive Design, App design</p>
 		<h2><em>Portfolio of Work</em> Section</h2>
+		<p>A thumbnail gallery displaying my best projects.</p>
+		<h2><em>Contact</em> Session</h2>
 		<h1>Wireframes</h1>
 	</body>
 </html>
