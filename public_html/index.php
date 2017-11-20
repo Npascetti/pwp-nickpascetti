@@ -120,23 +120,39 @@
 			</div>
 		</div>
 <!--		Div containg contact section content-->
-		<div>
+		<div class="container">
+			<div class="row">
+				<div class="col-8">
 			<form>
 				<div class="form-group">
-					<label for="exampleInputEmail1">Email address</label>
-					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-					<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+					<label for="exampleInputEmail1">Your Name</label>
+					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your name">
 				</div>
 				<div class="form-group">
-					<label for="exampleInputPassword1">Password</label>
-					<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+					<label for="exampleInputPassword1">Email Address</label>
+					<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your email">
 				</div>
 				<div class="form-group">
-					<label for="exampleTextarea">Example textarea</label>
+					<label for="exampleInputPassword1">Phone Number</label>
+					<input type="password" class="form-control" id="exampleInputPassword1" placeholder="(505)-555-5555">
+				</div>
+				<div class="form-group">
+					<label for="exampleInputPassword1">Company Name</label>
+					<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Company Name">
+				</div>
+				<div class="form-group">
+					<label for="exampleTextarea">Services You Are Interested In</label>
 					<textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
 				</div>
-				<button type="submit" class="btn btn-primary">Submit</button>
+				<button type="submit" class="btn btn-primary">Send</button>
 			</form>
+				</div>
+<!--				Col containing about me section-->
+				<div class="col-4">
+					<h2 class="text-center">Who Am I?</h2>
+					<p>Quis meatball ut t-bone, ball tip andouille nulla consequat minim aliquip cillum sed velit qui. Adipisicing reprehenderit excepteur non salami. Et t-bone shankle eu kevin pork aliqua aliquip. Corned beef do veniam aliqua enim prosciutto sausage id ut consequat ut buffalo.</p>
+				</div>
+			</div>
 		</div>
 <!--		Div containing footer of whole page-->
 		<footer class="page-footer container-fluid" id="bgimage1">
