@@ -14,7 +14,6 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 		<title>Nick's PWP</title>
 	</head>
-	<div>
 <!--		Div containing landing area, nav, and background image-->
 		<div class="container-fluid" id="bgimage">
 			<nav class="navbar">
@@ -41,19 +40,20 @@
 					</li>
 				</ul>
 			</nav>
-			<div class="text-left">
+			<div class="d-flex flex-column">
+			<div class="text-left justify-content-start my-5 ml-5">
 			<h2>Hello and</h2>
 			</div>
-			<div class="text-center">
+			<div class="text-center justify-content-center my-5">
 				<h2>Welcome To My</h2>
 			</div>
-			<div class="text-right">
+			<div class="text-right justify-content-end my-5 mr-5">
 				<h2>Portfolio Site</h2>
 			</div>
 			</div>
-		</div>
+			</div>
 <!--		Div for services section-->
-		<div class="container border">
+		<div class="container border mb-4">
 				<h2 class="text-right">Services</h2>
 		</div>
 <!--		Div containing services cards-->
@@ -102,7 +102,7 @@
 					</div>
 		</div>
 <!--		div containing footer for services section-->
-		<div class="container border">
+		<div class="container border mb-5">
 			<h3>Always Mobile First</h3>
 			<h3 class="text-right">Always Responsive Design</h3>
 		</div>
@@ -122,7 +122,7 @@
 			</div>
 		</div>
 <!--		Div containg header for Contact Section-->
-		<div class="container border">
+		<div class="container border mt-5 mb-3">
 			<div class="container border">
 				<h1 class="text-right">Contact</h1>
 			</div>
@@ -131,6 +131,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-8">
+					<h2 class="text-right">Who Are You?</h2>
 			<form>
 				<div class="form-group">
 					<label for="exampleInputEmail1">Your Name</label>
@@ -159,11 +160,20 @@
 				<div class="col-4">
 					<h2 class="text-center">Who Am I?</h2>
 					<p>Quis meatball ut t-bone, ball tip andouille nulla consequat minim aliquip cillum sed velit qui. Adipisicing reprehenderit excepteur non salami. Et t-bone shankle eu kevin pork aliqua aliquip. Corned beef do veniam aliqua enim prosciutto sausage id ut consequat ut buffalo.</p>
+					<p><small>Call</small></p>
+					<p>505-555-5555</p>
+					<img src="http://fillmurray.com/g/200/300" class="img-circle" alt="Cinque Terre" />
+					<p><small>Email</small></p>
+					<p>Npascetti@</p>
+					<p><small>Npascetti.com</small></p>
+					<a href="https://github.com/npascetti"><img src="../images/GitHub-Mark-64px.png" alt="githubmark"></a>
+					<a href="https://github.com/npascetti"><img src="../images/linkedin.png" alt="githubmark"></a>
+					<a href="https://github.com/npascetti"><img src="../images/GitHub-Mark-64px.png" alt="githubmark"></a>
 				</div>
 			</div>
 		</div>
 <!--		Div containing footer of whole page-->
-		<footer class="page-footer container-fluid" id="bgimage1">
+		<footer class="page-footer container-fluid mt-3" id="bgimage1">
 			<div class="container">
 				<div class="footer-copyright">
 					<div class="container-fluid">
