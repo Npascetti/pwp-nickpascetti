@@ -4,6 +4,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
+		<link rel="stylesheet" href="css/stylesheet.css" type="text/css" />
+
 		<!--Bootstrap CSS-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous" />
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -14,11 +16,13 @@
 	</head>
 	<body>
 <!--		Div containing landing area, nav, and background image-->
-		<div container-fluid>
+		<div class="container-fluid" id="bgimage">
+			<nav class="navbar">
 
+			</nav>
 		</div>
 <!--		Div for services section-->
-		<div container>
+		<div class="container">
 
 		</div>
 <!--		Div containing services cards-->
