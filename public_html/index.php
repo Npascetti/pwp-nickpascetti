@@ -58,7 +58,7 @@
 		</div>
 <!--		Div containing services cards-->
 		<div class="container">
-			<div class = "row d-flex justify-content-between">
+			<div class="row d-flex justify-content-between">
 
 				<div class = "col-sm-6 col-lg-3">
 					<div class="thumbnail text-center">
@@ -70,6 +70,7 @@
 							<figcaption class="text-center">
 								Let's get crazy. Isn't it great to do something you can't fail at? Let's make a happy little mountain now. You don't have to be crazy to do this but it does help. If you don't like it - change it. It's your world.
 							</figcaption>
+							<img src="http://fillmurray.com/50/50" class="figure-img img-fluid rounded" alt="placeholderimg." />
 						</figure>
 					</div>
 				</div>
@@ -84,6 +85,7 @@
 							<figcaption class="text-center">
 								That's a crooked tree. We'll send him to Washington. Just let this happen. We just let this flow right out of our minds. Just think about these things in your mind and drop em' on canvas. And just raise cain. Isn't it great.
 							</figcaption>
+							<img src="http://fillmurray.com/50/50" class="figure-img img-fluid rounded" alt="placeholderimg." />
 						</figure>
 					</div>
 				</div>
@@ -98,8 +100,11 @@
 							<figcaption class="text-center">
 								These trees are so much fun. I get started on them and I have a hard time stopping. You can create beautiful things - but you have to see them in your mind first. We need dark in order to show light.
 							</figcaption>
+							<img src="http://fillmurray.com/50/50" class="figure-img img-fluid rounded" alt="placeholderimg." />
 						</figure>
 					</div>
+		</div>
+			</div>
 		</div>
 <!--		div containing footer for services section-->
 		<div class="container border border-dark rounded mb-5 bg-light">
@@ -109,12 +114,12 @@
 <!--		Div containing the portfolio section-->
 		<div class="container border border-dark rounded bg-light">
 			<div class="row">
-			<div class="container border border-dark rounded justify-content-center col-8 bg-white">
+			<div class="container border border-dark rounded justify-content-center col-8 md-col-4 bg-white">
 				<h1 class="text-right">Portfolio</h1>
 			</div>
 			</div>
 			<div class="row">
-				<div class="container border border-dark rounded p-0 d-flex justify-content-between col-8 bg-light">
+				<div class="container border border-dark rounded p-0 d-flex flex-wrap justify-content-lg-between justify-content-sm-center col-lg-8 bg-light">
 					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-fluid"/></a>
 					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-fluid"/></a>
 					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-fluid"/></a>
@@ -181,9 +186,8 @@
 		<footer class="page-footer container-fluid rounded mt-3" id="bgimage1">
 			<div class="container">
 				<div class="footer-copyright">
-					<div class="container-fluid">
-						© 2015 Copyright: <a href="https://www.MDBootstrap.com"> MDBootstrap.com </a>
-
+					<div class="container-fluid d-flex justify-content-end">
+						<p>© 2015 Copyright: <a href="https://www.MDBootstrap.com"> MDBootstrap.com </a></p>
 					</div>
 				</div>
 			</div>
