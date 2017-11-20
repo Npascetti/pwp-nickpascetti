@@ -53,7 +53,7 @@
 			</div>
 			</div>
 <!--		Div for services section-->
-		<div class="container border mb-4">
+		<div class="container border mb-4 py-3">
 				<h2 class="text-right">Services</h2>
 		</div>
 <!--		Div containing services cards-->
@@ -103,8 +103,8 @@
 		</div>
 <!--		div containing footer for services section-->
 		<div class="container border mb-5">
-			<h3>Always Mobile First</h3>
-			<h3 class="text-right">Always Responsive Design</h3>
+			<h3 class="ml-3">Always Mobile First</h3>
+			<h3 class="text-right mr-3">Always Responsive Design</h3>
 		</div>
 <!--		Div containing the portfolio section-->
 		<div class="container">
@@ -157,7 +157,7 @@
 			</form>
 				</div>
 <!--				Col containing about me section-->
-				<div class="col-4">
+				<div class="col-4 d-flex flex-wrap">
 					<h2 class="text-center">Who Am I?</h2>
 					<p>Quis meatball ut t-bone, ball tip andouille nulla consequat minim aliquip cillum sed velit qui. Adipisicing reprehenderit excepteur non salami. Et t-bone shankle eu kevin pork aliqua aliquip. Corned beef do veniam aliqua enim prosciutto sausage id ut consequat ut buffalo.</p>
 					<p><small>Call</small></p>
