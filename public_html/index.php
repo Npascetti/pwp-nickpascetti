@@ -48,17 +48,19 @@
 			</div>
 		</div>
 <!--		Div for services section-->
-		<div class="container">
-
+		<div class="container border">
+			<div class="row">
+				<h2>Services</h2>
+			</div>
 		</div>
 <!--		Div containing services cards-->
-		<div>
+		<div class="container">
 			<div class = "row d-flex justify-content-between">
 
 				<div class = "col-sm-6 col-lg-3">
 					<div class="thumbnail text-center">
 						<div>
-							<h5>Elegance in Design and Function</h5>
+							<h5>Elegant and Functional</h5>
 							<h6>UI|UX</h6>
 						</div>
 						<figure class = " figure-caption border rounded bg-light">
@@ -97,24 +99,37 @@
 					</div>
 		</div>
 <!--		div containing footer for services section-->
-		<div>
-
+		<div class="container border">
+			<h3>Always Mobile First</h3>
+			<h3 class="ml-auto">Always Responsive Design</h3>
 		</div>
 <!--		Div containing the portfolio section-->
 		<div class="container">
+			<div class="container border">
+				<h1>Portfolio</h1>
+			</div>
 
 		</div>
 <!--		Div containg header for Contact Section-->
-		<div class="container">
-
+		<div class="container border">
+			<div class="container border">
+				<h1>Contact</h1>
+			</div>
 		</div>
 <!--		Div containg contact section content-->
 		<div>
 
 		</div>
 <!--		Div containing footer of whole page-->
-		<div class="container">
+		<footer class="page-footer" id="bgimage1">
+			<div class="container">
+				<div class="footer-copyright">
+					<div class="container-fluid">
+						© 2015 Copyright: <a href="https://www.MDBootstrap.com"> MDBootstrap.com </a>
 
-		</div>
+					</div>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>
