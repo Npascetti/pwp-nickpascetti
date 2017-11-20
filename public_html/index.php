@@ -114,7 +114,7 @@
 			</div>
 			</div>
 			<div class="row">
-				<div class="container border justify-content-center col-8">
+				<div class="container border d-flex justify-content-center col-8">
 					<a href="#"><img src="http://fillmurray.com/200/300" alt=""/></a>
 					<a href="#"><img src="http://fillmurray.com/200/300" alt=""/></a>
 					<a href="#"><img src="http://fillmurray.com/200/300" alt=""/></a>
@@ -157,18 +157,24 @@
 			</form>
 				</div>
 <!--				Col containing about me section-->
-				<div class="col-4 d-flex flex-wrap">
-					<h2 class="text-center">Who Am I?</h2>
+				<div class="col-4 d-flex flex-column flex-wrap">
+					<h2 class="justify-content-center">Who Am I?</h2>
 					<p>Quis meatball ut t-bone, ball tip andouille nulla consequat minim aliquip cillum sed velit qui. Adipisicing reprehenderit excepteur non salami. Et t-bone shankle eu kevin pork aliqua aliquip. Corned beef do veniam aliqua enim prosciutto sausage id ut consequat ut buffalo.</p>
-					<p><small>Call</small></p>
+					<p><small>Call </small></p>
 					<p>505-555-5555</p>
-					<img src="http://fillmurray.com/g/200/300" class="img-circle" alt="Cinque Terre" />
-					<p><small>Email</small></p>
-					<p>Npascetti@</p>
-					<p><small>Npascetti.com</small></p>
+					<div class="d-flex flex-row">
+					<img src="http://fillmurray.com/g/200/300" class="rounded-circle float-left" alt="Cinque Terre" />
+						<div class="d-flex flex-column">
+					<p class="text-right"><small>Email</small></p>
+					<p class="text-right">Npascetti@</p>
+					<p class="text-right"><small>Npascetti.com</small></p>
+						</div>
+					</div>
+					<div class="d-flex flex-row justify-content-center">
 					<a href="https://github.com/npascetti"><img src="../images/GitHub-Mark-64px.png" alt="githubmark"></a>
 					<a href="https://github.com/npascetti"><img src="../images/linkedin.png" alt="githubmark"></a>
 					<a href="https://github.com/npascetti"><img src="../images/GitHub-Mark-64px.png" alt="githubmark"></a>
+					</div>
 				</div>
 			</div>
 		</div>
