@@ -114,7 +114,7 @@
 			</div>
 			</div>
 			<div class="row">
-				<div class="container d-flex justify-content-between col-8 bg-light">
+				<div class="container border border-dark rounded p-0 d-flex justify-content-between col-8 bg-light">
 					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-fluid"/></a>
 					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-fluid"/></a>
 					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-fluid"/></a>
