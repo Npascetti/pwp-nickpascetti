@@ -53,7 +53,7 @@
 			</div>
 			</div>
 <!--		Div for services section-->
-		<div class="container border mb-4 py-3">
+		<div class="container border border-dark rounded bg-light mb-4 py-3">
 				<h2 class="text-right">Services</h2>
 		</div>
 <!--		Div containing services cards-->
@@ -102,28 +102,28 @@
 					</div>
 		</div>
 <!--		div containing footer for services section-->
-		<div class="container border mb-5">
+		<div class="container border border-dark rounded mb-5 bg-light">
 			<h3 class="ml-3">Always Mobile First</h3>
 			<h3 class="text-right mr-3">Always Responsive Design</h3>
 		</div>
 <!--		Div containing the portfolio section-->
-		<div class="container">
+		<div class="container border border-dark rounded bg-light">
 			<div class="row">
-			<div class="container border justify-content-center col-8">
+			<div class="container border border-dark rounded justify-content-center col-8 bg-white">
 				<h1 class="text-right">Portfolio</h1>
 			</div>
 			</div>
 			<div class="row">
-				<div class="container border d-flex justify-content-center col-8">
-					<a href="#"><img src="http://fillmurray.com/200/300" alt=""/></a>
-					<a href="#"><img src="http://fillmurray.com/200/300" alt=""/></a>
-					<a href="#"><img src="http://fillmurray.com/200/300" alt=""/></a>
+				<div class="container d-flex justify-content-between col-8 bg-light">
+					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-fluid"/></a>
+					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-fluid"/></a>
+					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-fluid"/></a>
 				</div>
 			</div>
 		</div>
 <!--		Div containg header for Contact Section-->
-		<div class="container border mt-5 mb-3">
-			<div class="container border">
+		<div class="container border border-dark rounded mt-5 mb-3 bg-light">
+			<div class="container">
 				<h1 class="text-right">Contact</h1>
 			</div>
 		</div>
@@ -157,8 +157,8 @@
 			</form>
 				</div>
 <!--				Col containing about me section-->
-				<div class="col-4 d-flex flex-column flex-wrap">
-					<h2 class="justify-content-center">Who Am I?</h2>
+				<div class="col-4 d-flex flex-column flex-wrap border border-top-0 border-bottom-0 border-right-0">
+					<h2 class="text-center">Who Am I?</h2>
 					<p>Quis meatball ut t-bone, ball tip andouille nulla consequat minim aliquip cillum sed velit qui. Adipisicing reprehenderit excepteur non salami. Et t-bone shankle eu kevin pork aliqua aliquip. Corned beef do veniam aliqua enim prosciutto sausage id ut consequat ut buffalo.</p>
 					<p class="my-0"><small>Call </small></p>
 					<p class="my-0">505-555-5555</p>
@@ -178,7 +178,7 @@
 			</div>
 		</div>
 <!--		Div containing footer of whole page-->
-		<footer class="page-footer container-fluid mt-3" id="bgimage1">
+		<footer class="page-footer container-fluid rounded mt-3" id="bgimage1">
 			<div class="container">
 				<div class="footer-copyright">
 					<div class="container-fluid">
