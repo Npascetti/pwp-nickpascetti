@@ -119,7 +119,7 @@
 			</div>
 			</div>
 			<div class="row">
-				<div class="container border border-dark rounded p-0 d-flex flex-wrap justify-content-lg-between justify-content-sm-center col-lg-8 bg-light">
+				<div class="container border border-dark rounded p-0 d-flex flex-wrap justify-content-lg-between justify-content--center col-lg-8 bg-light">
 					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-fluid"/></a>
 					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-fluid"/></a>
 					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-fluid"/></a>
@@ -135,7 +135,7 @@
 <!--		Div containg contact section content-->
 		<div class="container">
 			<div class="row">
-				<div class="col-8">
+				<div class="col-sm-6 col-lg-8">
 					<h2 class="text-center">Who Are You?</h2>
 			<form>
 				<div class="form-group">
@@ -162,7 +162,7 @@
 			</form>
 				</div>
 <!--				Col containing about me section-->
-				<div class="col-4 d-flex flex-column flex-wrap border border-top-0 border-bottom-0 border-right-0">
+				<div class="col-sm-6 col-lg-4 d-flex flex-column flex-wrap border border-top-0 border-bottom-0 border-right-0">
 					<h2 class="text-center">Who Am I?</h2>
 					<p>Quis meatball ut t-bone, ball tip andouille nulla consequat minim aliquip cillum sed velit qui. Adipisicing reprehenderit excepteur non salami. Et t-bone shankle eu kevin pork aliqua aliquip. Corned beef do veniam aliqua enim prosciutto sausage id ut consequat ut buffalo.</p>
 					<p class="my-0"><small>Call </small></p>
