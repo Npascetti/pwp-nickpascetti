@@ -131,7 +131,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-8">
-					<h2 class="text-right">Who Are You?</h2>
+					<h2 class="text-center">Who Are You?</h2>
 			<form>
 				<div class="form-group">
 					<label for="exampleInputEmail1">Your Name</label>
@@ -160,21 +160,20 @@
 				<div class="col-4 d-flex flex-column flex-wrap">
 					<h2 class="justify-content-center">Who Am I?</h2>
 					<p>Quis meatball ut t-bone, ball tip andouille nulla consequat minim aliquip cillum sed velit qui. Adipisicing reprehenderit excepteur non salami. Et t-bone shankle eu kevin pork aliqua aliquip. Corned beef do veniam aliqua enim prosciutto sausage id ut consequat ut buffalo.</p>
-					<p><small>Call </small></p>
-					<p>505-555-5555</p>
-					<div class="d-flex flex-row">
-					<img src="http://fillmurray.com/g/200/300" class="rounded-circle float-left" alt="Cinque Terre" />
+					<p class="my-0"><small>Call </small></p>
+					<p class="my-0">505-555-5555</p>
+					<div class="d-flex flex-row justify-content-between">
+					<img src="http://fillmurray.com/g/200/300" class="rounded-circle" alt="Cinque Terre" />
 						<div class="d-flex flex-column">
-					<p class="text-right"><small>Email</small></p>
-					<p class="text-right">Npascetti@</p>
-					<p class="text-right"><small>Npascetti.com</small></p>
+					<p class="text-right my-0"><small>Email</small></p>
+					<p class="text-right my-0" >Npascetti@</p>
+					<p class="text-right my-0"><small>Npascetti.com</small></p>
+								<a href="https://github.com/npascetti"><img src="../images/GitHub-Mark-64px.png" alt="githubmark" class="p-2"></a>
+								<a href="https://github.com/npascetti"><img src="../images/linkedin.png" alt="githubmark" class="p-2"></a>
+								<a href="https://github.com/npascetti"><img src="../images/GitHub-Mark-64px.png" alt="githubmark" class="p-2"></a>
 						</div>
 					</div>
-					<div class="d-flex flex-row justify-content-center">
-					<a href="https://github.com/npascetti"><img src="../images/GitHub-Mark-64px.png" alt="githubmark"></a>
-					<a href="https://github.com/npascetti"><img src="../images/linkedin.png" alt="githubmark"></a>
-					<a href="https://github.com/npascetti"><img src="../images/GitHub-Mark-64px.png" alt="githubmark"></a>
-					</div>
+
 				</div>
 			</div>
 		</div>
