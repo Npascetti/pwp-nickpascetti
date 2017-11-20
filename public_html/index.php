@@ -108,10 +108,18 @@
 		</div>
 <!--		Div containing the portfolio section-->
 		<div class="container">
-			<div class="container border">
+			<div class="row">
+			<div class="container border justify-content-center col-8">
 				<h1 class="text-right">Portfolio</h1>
 			</div>
-
+			</div>
+			<div class="row">
+				<div class="container border justify-content-center col-8">
+					<a href="#"><img src="http://fillmurray.com/200/300" alt=""/></a>
+					<a href="#"><img src="http://fillmurray.com/200/300" alt=""/></a>
+					<a href="#"><img src="http://fillmurray.com/200/300" alt=""/></a>
+				</div>
+			</div>
 		</div>
 <!--		Div containg header for Contact Section-->
 		<div class="container border">
