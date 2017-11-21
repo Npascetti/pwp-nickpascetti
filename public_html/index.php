@@ -17,8 +17,8 @@
 <!--		Div containing landing area, nav, and background image-->
 		<div class="container-fluid" id="bgimage">
 			<nav class="navbar row">
-				<a class="nav-link mr-auto col-9" href="#">Logo Button</a>
-				<ul class="navbar-nav ml-auto col-1">
+				<a class="nav-link mr-auto col-xs-4 col-9" href="#">Logo Button</a>
+				<ul class="navbar-nav ml-auto col-xs-2">
 					<li class="nav-item">
 						<a class="nav-link" href="#">About Me</a>
 					</li>
@@ -29,12 +29,12 @@
 						<a class="nav-link" href="#">Services</a>
 					</li>
 				</ul>
-				<ul class="navbar-nav ml-auto col-1">
+				<ul class="navbar-nav ml-auto col-xs-2">
 					<li class="nav-item">
 						<a class="nav-link" href="#">Contact Form</a>
 					</li>
 				</ul>
-				<ul class="navbar-nav ml-auto col-1">
+				<ul class="navbar-nav ml-auto col-xs-2">
 					<li class="nav-item">
 						<a class="nav-link" href="#">Legal</a>
 					</li>
@@ -118,9 +118,9 @@
 			</div>
 
 				<div class="container border border-dark rounded p-0 d-flex flex-wrap justify-content-between col-sm col-lg-8 bg-light">
-					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-fluid"/></a>
-					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-fluid"/></a>
-					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-fluid"/></a>
+					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-fluid "/></a>
+					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-fluid "/></a>
+					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-fluid "/></a>
 
 				</div>
 			</div>
