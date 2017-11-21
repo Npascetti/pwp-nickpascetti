@@ -17,7 +17,7 @@
 <!--		Div containing landing area, nav, and background image-->
 		<div class="container-fluid" id="bgimage">
 			<nav class="navbar row">
-				<a class="nav-link mr-auto col-xs-4 col-9" href="#">Logo Button</a>
+				<a class="nav-link mr-auto col-xs-4 col-3" href="#">Logo Button</a>
 				<ul class="navbar-nav ml-auto col-xs-2">
 					<li class="nav-item">
 						<a class="nav-link" href="#">About Me</a>
