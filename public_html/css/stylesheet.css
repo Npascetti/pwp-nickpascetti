@@ -1,16 +1,16 @@
 #bgimage {
-	background-image: url("../../images/croppedwallbg.xcf");
+	background-image: url("../../images/croppedwallbg.png");
 	height: 100vh;
 
 }
 
 #bgimage1 {
-	background-image: url("../../images/croppedfooterbg.xcf");
+	background-image: url("../../images/croppedfooterbg.png");
 	height: 20vh;
 }
 
 body {
-	background-image: url("../../images/croppedwallbg.xcf");
+	background-image: url("../../images/croppedwallbg.png");
 	/*background: hsla(46, 29%, 53%, .6) !important;*/
 }
 
