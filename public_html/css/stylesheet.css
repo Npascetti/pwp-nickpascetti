@@ -1,16 +1,20 @@
 #bgimage {
-	background-image: url("../../images/steinar-engeland-157884.jpg");
+	background-image: url("../../images/croppedwallbg.xcf");
 	height: 100vh;
 
 }
 
 #bgimage1 {
-	background-image: url("../../images/steinar-engeland-157884.jpg");
+	background-image: url("../../images/croppedfooterbg.xcf");
 	height: 20vh;
 }
 
 body {
-	background-image: url("../../images/steinar-engeland-157884.jpg");
+	background-image: url("../../images/croppedwallbg.xcf");
 	/*background: hsla(46, 29%, 53%, .6) !important;*/
+}
+
+body {
+	font-family: 'Raleway', sans-serif !important;
 }
 

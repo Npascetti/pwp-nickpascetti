@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
 		<link rel="stylesheet" href="css/stylesheet.css" type="text/css" />
 
 		<!--Bootstrap CSS-->
@@ -186,7 +186,7 @@
 			<div class="container">
 				<div class="footer-copyright">
 					<div class="container-fluid d-flex justify-content-end">
-						<p>© 2015 Copyright: <a href="https://www.MDBootstrap.com"> MDBootstrap.com </a></p>
+						<p>© 2017 Copyright: <a href="https://www.nickpascetti.com"> pascettiCode </a></p>
 					</div>
 				</div>
 			</div>
