@@ -16,9 +16,9 @@
 	</head>
 <!--		Div containing landing area, nav, and background image-->
 		<div class="container-fluid" id="bgimage">
-			<nav class="navbar">
-				<a class="nav-link mr-auto" href="#">Logo Button</a>
-				<ul class="navbar-nav ml-auto">
+			<nav class="navbar row">
+				<a class="nav-link mr-auto col-9" href="#">Logo Button</a>
+				<ul class="navbar-nav ml-auto col-1">
 					<li class="nav-item">
 						<a class="nav-link" href="#">About Me</a>
 					</li>
@@ -29,12 +29,12 @@
 						<a class="nav-link" href="#">Services</a>
 					</li>
 				</ul>
-				<ul class="navbar-nav ml-auto">
+				<ul class="navbar-nav ml-auto col-1">
 					<li class="nav-item">
 						<a class="nav-link" href="#">Contact Form</a>
 					</li>
 				</ul>
-				<ul class="navbar-nav ml-auto">
+				<ul class="navbar-nav ml-auto col-1">
 					<li class="nav-item">
 						<a class="nav-link" href="#">Legal</a>
 					</li>
@@ -107,40 +107,20 @@
 			</div>
 		</div>
 <!--		div containing footer for services section-->
-		<div class="container border border-dark rounded mb-5 bg-light">
+		<div class="container border border-dark rounded mb-5 mt-5 bg-light">
 			<h3 class="ml-3">Always Mobile First</h3>
 			<h3 class="text-right mr-3">Always Responsive Design</h3>
 		</div>
 <!--		Div containing the portfolio section-->
 		<div class="container border border-dark rounded bg-light">
-			<div class="row">
 			<div class="container border border-dark rounded justify-content-center col-8 md-col-4 bg-white">
 				<h1 class="text-right">Portfolio</h1>
 			</div>
-			</div>
-			<div class="row">
+
 				<div class="container border border-dark rounded p-0 d-flex flex-wrap justify-content-between col-sm col-lg-8 bg-light">
-<!--					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-fluid"/></a>-->
-<!--					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-fluid"/></a>-->
-<!--					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-fluid"/></a>-->
-					<div class="card">
-						<img class="card-img" src="http://fillmurray.com/200/450" alt="Card image">
-						<div class="card-img-overlay">
-							<p class="card-text">I'm text that has a background image!</p>
-						</div>
-					</div>
-					<div class="card">
-						<img class="card-img" src="http://fillmurray.com/200/450" alt="Card image">
-						<div class="card-img-overlay">
-							<p class="card-text">I'm text that has a background image!</p>
-						</div>
-					</div>
-					<div class="card">
-						<img class="card-img" src="http://fillmurray.com/200/450" alt="Card image">
-						<div class="card-img-overlay">
-							<p class="card-text">I'm text that has a background image!</p>
-						</div>
-					</div>
+					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-fluid"/></a>
+					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-fluid"/></a>
+					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-fluid"/></a>
 
 				</div>
 			</div>

@@ -1,11 +1,16 @@
 #bgimage {
-	background-image: url("http://fillmurray.com/1360/768");
+	background-image: url("../../images/steinar-engeland-157884.jpg");
 	height: 100vh;
 
 }
 
 #bgimage1 {
-	background-image: url("http://fillmurray.com/g/1360/400");
+	background-image: url("../../images/steinar-engeland-157884.jpg");
 	height: 30vh;
+}
+
+body {
+	background-image: url("../../images/steinar-engeland-157884.jpg");
+	/*background: hsla(46, 29%, 53%, .6) !important;*/
 }
 
