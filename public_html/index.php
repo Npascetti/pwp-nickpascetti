@@ -42,13 +42,13 @@
 			</nav>
 			<div class="d-flex flex-column">
 			<div class="text-left justify-content-start my-5 ml-5">
-			<h2>Hello and</h2>
+			<h2><strong>I</strong>ntuitive <strong>D</strong>esign</h2>
 			</div>
 			<div class="text-center justify-content-center my-5">
-				<h2>Welcome To My</h2>
+				<h2><strong>C</strong>reative <strong>I</strong>nsight</h2>
 			</div>
 			<div class="text-right justify-content-end my-5 mr-5">
-				<h2>Portfolio Site</h2>
+				<h2><strong>M</strong>inimalist <strong>A</strong>esthetic</h2>
 			</div>
 			</div>
 			</div>
