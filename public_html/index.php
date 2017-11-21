@@ -60,7 +60,7 @@
 		<div class="container">
 			<div class="row d-flex justify-content-between">
 
-				<div class = "col-sm-6 col-lg-3">
+				<div class = "col-sm col-lg-3 ">
 					<div class="thumbnail text-center">
 						<div>
 							<h5>Elegant and Functional</h5>
@@ -75,7 +75,7 @@
 					</div>
 				</div>
 
-				<div class = "col-sm-6 col-lg-3">
+				<div class = "col-sm col-lg-3 ">
 					<div class="thumbnail text-center">
 						<div>
 							<h5>Mobile Web App</h5>
@@ -90,7 +90,7 @@
 					</div>
 				</div>
 
-				<div class = "col-sm-6 col-lg-3">
+				<div class = "col-sm col-lg-3">
 					<div class="thumbnail text-center">
 						<div>
 							<h5>Custom WordPress</h5>
@@ -119,10 +119,29 @@
 			</div>
 			</div>
 			<div class="row">
-				<div class="container border border-dark rounded p-0 d-flex flex-wrap justify-content-lg-between justify-content--center col-lg-8 bg-light">
-					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-fluid"/></a>
-					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-fluid"/></a>
-					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-fluid"/></a>
+				<div class="container border border-dark rounded p-0 d-flex flex-wrap justify-content-between col-sm col-lg-8 bg-light">
+<!--					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-fluid"/></a>-->
+<!--					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-fluid"/></a>-->
+<!--					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-fluid"/></a>-->
+					<div class="card">
+						<img class="card-img" src="http://fillmurray.com/200/450" alt="Card image">
+						<div class="card-img-overlay">
+							<p class="card-text">I'm text that has a background image!</p>
+						</div>
+					</div>
+					<div class="card">
+						<img class="card-img" src="http://fillmurray.com/200/450" alt="Card image">
+						<div class="card-img-overlay">
+							<p class="card-text">I'm text that has a background image!</p>
+						</div>
+					</div>
+					<div class="card">
+						<img class="card-img" src="http://fillmurray.com/200/450" alt="Card image">
+						<div class="card-img-overlay">
+							<p class="card-text">I'm text that has a background image!</p>
+						</div>
+					</div>
+
 				</div>
 			</div>
 		</div>
