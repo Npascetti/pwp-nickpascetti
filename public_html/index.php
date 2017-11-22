@@ -53,11 +53,12 @@
 			</div>
 			</div>
 <!--		Div for services section-->
-		<div class="container border border-dark rounded bg-light mb-4 py-3">
-				<h2 class="text-right">Services</h2>
+	<div class="services">
+		<div class="container-fluid rounded bg-light mb-4 py-3">
+				<h2 class="text-right"><strong>S</strong>ervices</h2>
 		</div>
 <!--		Div containing services cards-->
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row d-flex justify-content-between">
 
 				<div class = "col-sm col-lg-3 ">
@@ -106,55 +107,62 @@
 		</div>
 			</div>
 		</div>
+
 <!--		div containing footer for services section-->
-		<div class="container border border-dark rounded mb-5 mt-5 bg-light">
-			<h3 class="ml-3">Always Mobile First</h3>
-			<h3 class="text-right mr-3">Always Responsive Design</h3>
+
+	</div>
+
+		<div class="container-fluid rounded bg-light">
+			<h3 class="ml-3"><strong>A</strong>lways <strong>M</strong>obile <strong>F</strong>irst</h3>
+			<h3 class="text-right mr-3 mb-0"><strong>A</strong>lways <strong>R</strong>esponsive <strong>D</strong>esign</h3>
 		</div>
+
 <!--		Div containing the portfolio section-->
-		<div class="container border border-dark rounded bg-light">
-			<div class="container border border-dark rounded justify-content-center col-8 md-col-4 bg-white">
-				<h1 class="text-right">Portfolio</h1>
+	<div class="portfoliocontainer1">
+			<div class="container rounded d-flex justify-content-center col-8 md-col-4 bg-white">
+				<h1 class="text-right"><strong>P</strong>ortfolio</h1>
 			</div>
 
-				<div class="container border border-dark rounded p-0 d-flex flex-wrap justify-content-between col-sm col-lg-8 bg-light">
+				<div class=" rounded p-0 d-flex flex-wrap col-sm col-lg-8 bg-light mx-auto portfoliocontainer">
 					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-fluid "/></a>
 					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-fluid "/></a>
 					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-fluid "/></a>
 
 				</div>
-			</div>
-		</div>
+	</div>
+
+
+
 <!--		Div containg header for Contact Section-->
 		<div class="container border border-dark rounded mt-5 mb-3 bg-light">
 			<div class="container">
-				<h1 class="text-right">Contact</h1>
+				<h1 class="text-right"><strong>C</strong>ontact</h1>
 			</div>
 		</div>
 <!--		Div containg contact section content-->
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6 col-lg-8">
-					<h2 class="text-center">Who Are You?</h2>
+					<h2 class="text-center"><strong>W</strong>ho <strong>A</strong>re <strong>Y</strong>ou?</h2>
 			<form>
 				<div class="form-group">
-					<label for="exampleInputEmail1">Your Name</label>
+					<label for="exampleInputEmail1"><strong>Your Name</strong></label>
 					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your name">
 				</div>
 				<div class="form-group">
-					<label for="exampleInputPassword1">Email Address</label>
-					<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your email">
+					<label for="exampleInputPassword1"><strong>Email Address</strong></label>
+					<input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter your email">
 				</div>
 				<div class="form-group">
-					<label for="exampleInputPassword1">Phone Number</label>
-					<input type="password" class="form-control" id="exampleInputPassword1" placeholder="(505)-555-5555">
+					<label for="exampleInputPhone"><strong>Phone Number</strong></label>
+					<input type="email" class="form-control" id="exampleInputPhone" placeholder="(505)-555-5555">
 				</div>
 				<div class="form-group">
-					<label for="exampleInputPassword1">Company Name</label>
-					<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Company Name">
+					<label for="exampleInputCompanyName"><strong>Company Name</strong></label>
+					<input type="text" class="form-control" id="exampleInputCompanyName" placeholder="Company Name">
 				</div>
 				<div class="form-group">
-					<label for="exampleTextarea">Services You Are Interested In</label>
+					<label for="exampleTextarea"><strong>Services You Are Interested In</strong></label>
 					<textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
 				</div>
 				<button type="submit" class="btn btn-primary">Send</button>
@@ -162,16 +170,16 @@
 				</div>
 <!--				Col containing about me section-->
 				<div class="col-sm-6 col-lg-4 d-flex flex-column flex-wrap border border-top-0 border-bottom-0 border-right-0">
-					<h2 class="text-center">Who Am I?</h2>
+					<h2 class="text-center"><strong>W</strong>ho <strong>A</strong>m <strong>I</strong>?</h2>
 					<p>Quis meatball ut t-bone, ball tip andouille nulla consequat minim aliquip cillum sed velit qui. Adipisicing reprehenderit excepteur non salami. Et t-bone shankle eu kevin pork aliqua aliquip. Corned beef do veniam aliqua enim prosciutto sausage id ut consequat ut buffalo.</p>
-					<p class="my-0"><small>Call </small></p>
-					<p class="my-0">505-555-5555</p>
+					<p class="my-0"><small><strong>Call</strong></small></p>
+					<p class="my-0">505<strong>-</strong>555<strong>-</strong>5555</p>
 					<div class="d-flex flex-row justify-content-between">
 					<img src="http://fillmurray.com/g/200/300" class="rounded-circle" alt="Cinque Terre" />
 						<div class="d-flex flex-column">
-					<p class="text-right my-0"><small>Email</small></p>
-					<p class="text-right my-0" >Npascetti@</p>
-					<p class="text-right my-0"><small>Npascetti.com</small></p>
+					<p class="text-right my-0"><small><strong>Email</strong></small></p>
+					<p class="text-right my-0" >Npascetti<strong>@</strong></p>
+					<p class="text-right my-0"><small>Npascetti<strong>.</strong>com</small></p>
 								<a href="https://github.com/npascetti"><img src="../images/GitHub-Mark-64px.png" alt="githubmark" class="p-2"></a>
 								<a href="https://github.com/npascetti"><img src="../images/linkedin.png" alt="githubmark" class="p-2"></a>
 								<a href="https://github.com/npascetti"><img src="../images/GitHub-Mark-64px.png" alt="githubmark" class="p-2"></a>

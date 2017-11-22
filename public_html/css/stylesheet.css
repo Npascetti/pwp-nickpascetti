@@ -1,8 +1,20 @@
 #bgimage {
 	background-image: url("../../images/croppedwallbg.png");
 	height: 100vh;
-
+	background-attachment: fixed;
 }
+
+.services {
+	background-image: url("../../images/drywall.jpeg");
+	height: 100%;
+	background-attachment: fixed;
+}
+
+.services1 {
+	height:90vh;
+}
+
+
 
 #bgimage1 {
 	background-image: url("../../images/croppedfooterbg.png");
@@ -10,7 +22,7 @@
 }
 
 body {
-	background-image: url("../../images/croppedwallbg.png");
+	/*background-image: url("../../images/croppedwallbg.png");*/
 	/*background: hsla(46, 29%, 53%, .6) !important;*/
 }
 
@@ -18,3 +30,11 @@ body {
 	font-family: 'Raleway', sans-serif !important;
 }
 
+.portfoliocontainer {
+	justify-content: center;
+}
+
+.portfoliocontainer1 {
+	background-image: url("../../images/drywall.jpeg");
+	background-attachment: fixed;
+}
