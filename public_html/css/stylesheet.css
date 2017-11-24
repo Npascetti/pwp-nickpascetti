@@ -10,17 +10,17 @@ html, body {
 
 .services {
 	background-image: url("../../images/drywall.jpeg");
-	height: 35rem;
+	/*min-height: 90vh;*/
 	background-attachment: fixed;
-}
+	}
 
-.services1 {
-	height:90vh;
-}
+	/*.services1 {*/
+	/*height:90vh;*/
+	/*}*/
 
-body > div.services > div.container-fluid.d-flex {
-	height: 27rem;
-}
+	/*body > div.services > div.container-fluid.d-flex {*/
+	/*height: 90vh;*/
+	/*}*/
 
 
 
@@ -55,4 +55,15 @@ body {
 .contacts {
 	background-image: url("../../images/drywall.jpeg");
 	background-attachment: fixed;
+}
+
+.dividerbg {
+	background-image: url("../../images/drywall.jpeg");
+	background-attachment: fixed;
+	height: 8rem;
+}
+.dividerbgsmall {
+	background-image: url("../../images/croppedwallbg.png");
+	background-attachment: fixed;
+	height: 3rem;
 }

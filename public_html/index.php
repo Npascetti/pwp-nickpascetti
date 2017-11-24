@@ -54,11 +54,14 @@
 			</div>
 <!--		Div for services section-->
 	<div class="services">
-		<div class="container-fluid rounded bg-light mb-4 py-3">
+		<div class="container-fluid rounded bg-light py-3">
 				<h2 class="text-right"><strong>S</strong>ervices</h2>
 		</div>
 <!--		Div containing services cards-->
-		<div class="container-fluid d-flex align-items-center">
+		<div class="dividerbg">
+
+		</div>
+		<div class="container-fluid d-flex">
 			<div class="row d-flex justify-content-between">
 
 				<div class = "col-sm col-lg-3 ">
@@ -107,7 +110,9 @@
 		</div>
 			</div>
 		</div>
+		<div class="dividerbg">
 
+		</div>
 <!--		div containing footer for services section-->
 
 	</div>
@@ -116,7 +121,9 @@
 			<h3 class="ml-3"><strong>A</strong>lways <strong>M</strong>obile <strong>F</strong>irst</h3>
 			<h3 class="text-right mr-3 mb-0"><strong>A</strong>lways <strong>R</strong>esponsive <strong>D</strong>esign</h3>
 		</div>
+		<div class="dividerbgsmall">
 
+		</div>
 <!--		Div containing the portfolio section-->
 	<div class="portfoliocontainer1">
 			<div class="container-fluid rounded mb-4 py-3 bg-white	">
