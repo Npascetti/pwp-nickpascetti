@@ -1,3 +1,7 @@
+html, body {
+	height: 100%;
+}
+
 #bgimage {
 	background-image: url("../../images/croppedwallbg.png");
 	height: 100vh;
@@ -6,12 +10,16 @@
 
 .services {
 	background-image: url("../../images/drywall.jpeg");
-	height: 100%;
+	height: 35rem;
 	background-attachment: fixed;
 }
 
 .services1 {
 	height:90vh;
+}
+
+body > div.services > div.container-fluid.d-flex {
+	height: 27rem;
 }
 
 
@@ -32,9 +40,19 @@ body {
 
 .portfoliocontainer {
 	justify-content: center;
+	/*opacity: 0.5;*/
 }
 
 .portfoliocontainer1 {
+	background-image: url("../../images/drywall.jpeg");
+	background-attachment: fixed;
+}
+
+.portfolioheader {
+	/*opacity: 0.5;*/
+}
+
+.contacts {
 	background-image: url("../../images/drywall.jpeg");
 	background-attachment: fixed;
 }

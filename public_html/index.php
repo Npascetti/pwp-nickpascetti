@@ -45,10 +45,10 @@
 			<h2><strong>I</strong>ntuitive <strong>D</strong>esign</h2>
 			</div>
 			<div class="text-center justify-content-center my-5">
-				<h2><strong>C</strong>reative <strong>I</strong>nsight</h2>
+				<h2><strong>C</strong>lean <strong>S</strong>imple</h2>
 			</div>
 			<div class="text-right justify-content-end my-5 mr-5">
-				<h2><strong>M</strong>inimalist <strong>A</strong>esthetic</h2>
+				<h2><strong>C</strong>reative <strong>I</strong>nsight</h2>
 			</div>
 			</div>
 			</div>
@@ -58,7 +58,7 @@
 				<h2 class="text-right"><strong>S</strong>ervices</h2>
 		</div>
 <!--		Div containing services cards-->
-		<div class="container-fluid">
+		<div class="container-fluid d-flex align-items-center">
 			<div class="row d-flex justify-content-between">
 
 				<div class = "col-sm col-lg-3 ">
@@ -119,11 +119,11 @@
 
 <!--		Div containing the portfolio section-->
 	<div class="portfoliocontainer1">
-			<div class="container rounded d-flex justify-content-center col-8 md-col-4 bg-white">
-				<h1 class="text-right"><strong>P</strong>ortfolio</h1>
+			<div class="container-fluid rounded mb-4 py-3 bg-white	">
+				<h1 class="text-center"><strong>P</strong>ortfolio</h1>
 			</div>
 
-				<div class=" rounded p-0 d-flex flex-wrap col-sm col-lg-8 bg-light mx-auto portfoliocontainer">
+				<div class=" rounded p-0 d-flex flex-wrap col-sm col-lg-8 mx-auto portfoliocontainer">
 					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-fluid "/></a>
 					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-fluid "/></a>
 					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-fluid "/></a>
@@ -134,10 +134,9 @@
 
 
 <!--		Div containg header for Contact Section-->
-		<div class="container border border-dark rounded mt-5 mb-3 bg-light">
-			<div class="container">
+	<div class="contacts">
+		<div class="container-fluid border border-dark rounded  mb-4 py-3 bg-light">
 				<h1 class="text-right"><strong>C</strong>ontact</h1>
-			</div>
 		</div>
 <!--		Div containg contact section content-->
 		<div class="container">
@@ -189,6 +188,7 @@
 				</div>
 			</div>
 		</div>
+	</div>
 <!--		Div containing footer of whole page-->
 		<footer class="page-footer container-fluid rounded mt-3" id="bgimage1">
 			<div class="container">
