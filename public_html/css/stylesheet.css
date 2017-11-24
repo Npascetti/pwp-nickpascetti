@@ -67,3 +67,16 @@ body {
 	background-attachment: fixed;
 	height: 3rem;
 }
+
+figure {
+	background-color: rgba(255, 251, 218, 0.4);
+}
+
+.secheader {
+	background-color: rgba(255, 251, 218, 0.4);
+}
+
+.carousel-item > img {
+	margin: auto;
+	width: 50%;
+}

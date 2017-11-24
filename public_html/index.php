@@ -54,7 +54,7 @@
 			</div>
 <!--		Div for services section-->
 	<div class="services">
-		<div class="container-fluid rounded bg-light py-3">
+		<div class="container-fluid rounded py-3 secheader">
 				<h2 class="text-right"><strong>S</strong>ervices</h2>
 		</div>
 <!--		Div containing services cards-->
@@ -70,7 +70,7 @@
 							<h5>Elegant and Functional</h5>
 							<h6>UI|UX</h6>
 						</div>
-						<figure class = " figure-caption border rounded bg-light">
+						<figure class = " figure-caption border rounded">
 							<figcaption class="text-center">
 								Let's get crazy. Isn't it great to do something you can't fail at? Let's make a happy little mountain now. You don't have to be crazy to do this but it does help. If you don't like it - change it. It's your world.
 							</figcaption>
@@ -85,7 +85,7 @@
 							<h5>Mobile Web App</h5>
 							<h6>Creation and Conversion</h6>
 						</div>
-						<figure class = " figure-caption border rounded bg-light">
+						<figure class = " figure-caption border rounded ">
 							<figcaption class="text-center">
 								That's a crooked tree. We'll send him to Washington. Just let this happen. We just let this flow right out of our minds. Just think about these things in your mind and drop em' on canvas. And just raise cain. Isn't it great.
 							</figcaption>
@@ -100,7 +100,7 @@
 							<h5>Custom WordPress</h5>
 							<h6>CMS Solutions</h6>
 						</div>
-						<figure class = " figure-caption border rounded bg-light">
+						<figure class = " figure-caption border rounded">
 							<figcaption class="text-center">
 								These trees are so much fun. I get started on them and I have a hard time stopping. You can create beautiful things - but you have to see them in your mind first. We need dark in order to show light.
 							</figcaption>
@@ -115,34 +115,62 @@
 		</div>
 <!--		div containing footer for services section-->
 
-	</div>
 
-		<div class="container-fluid rounded bg-light">
+
+		<div class="container-fluid rounded secheader">
 			<h3 class="ml-3"><strong>A</strong>lways <strong>M</strong>obile <strong>F</strong>irst</h3>
 			<h3 class="text-right mr-3 mb-0"><strong>A</strong>lways <strong>R</strong>esponsive <strong>D</strong>esign</h3>
 		</div>
+	</div>
 		<div class="dividerbgsmall">
 
 		</div>
 <!--		Div containing the portfolio section-->
 	<div class="portfoliocontainer1">
-			<div class="container-fluid rounded mb-4 py-3 bg-white	">
-				<h1 class="text-center"><strong>P</strong>ortfolio</h1>
+			<div class="container-fluid rounded py-3 secheader	">
+				<h1 class="text-right"><strong>P</strong>ortfolio</h1>
 			</div>
 
-				<div class=" rounded p-0 d-flex flex-wrap col-sm col-lg-8 mx-auto portfoliocontainer">
-					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-fluid "/></a>
-					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-fluid "/></a>
-					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-fluid "/></a>
-
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner mx-auto" role="listbox">
+				<div class="carousel-item active">
+					<img class="d-block img-fluid" src="http://fillmurray.com/600/400" alt="First slide">
 				</div>
+				<div class="carousel-item">
+					<img class="d-block img-fluid" src="http://fillmurray.com/600/400" alt="Second slide">
+				</div>
+				<div class="carousel-item">
+					<img class="d-block img-fluid" src="http://fillmurray.com/600/400" alt="Third slide">
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+
+<!--				<div class=" rounded p-0 d-flex flex-wrap col-sm col-lg-8 mx-auto portfoliocontainer">-->
+<!--					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-thumbnail "/></a>-->
+<!--					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-thumbnail "/></a>-->
+<!--					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-thumbnail "/></a>-->
+<!---->
+<!--				</div>-->
 	</div>
 
 
 
 <!--		Div containg header for Contact Section-->
 	<div class="contacts">
-		<div class="container-fluid border border-dark rounded  mb-4 py-3 bg-light">
+		<div class="container-fluid rounded  mb-4 py-3 secheader">
 				<h1 class="text-right"><strong>C</strong>ontact</h1>
 		</div>
 <!--		Div containg contact section content-->
@@ -197,7 +225,7 @@
 		</div>
 	</div>
 <!--		Div containing footer of whole page-->
-		<footer class="page-footer container-fluid rounded mt-3" id="bgimage1">
+		<footer class="page-footer container-fluid rounded" id="bgimage1">
 			<div class="container">
 				<div class="footer-copyright">
 					<div class="container-fluid d-flex justify-content-end">
