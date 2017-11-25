@@ -130,7 +130,9 @@
 			<div class="container-fluid rounded py-3 secheader	">
 				<h1 class="text-right"><strong>P</strong>ortfolio</h1>
 			</div>
+<div class="dividerbgsmall1">
 
+</div>
 		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators">
 				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -139,13 +141,13 @@
 			</ol>
 			<div class="carousel-inner " role="listbox">
 				<div class="carousel-item active">
-					<img class="d-block img-fluid" src="http://fillmurray.com/350/550" alt="First slide">
+					<img class="d-block img-fluid" src="http://fillmurray.com/500/500" alt="First slide">
 				</div>
 				<div class="carousel-item">
-					<img class="d-block img-fluid" src="http://fillmurray.com/350/550" alt="Second slide">
+					<img class="d-block img-fluid" src="http://fillmurray.com/500/500" alt="Second slide">
 				</div>
 				<div class="carousel-item">
-					<img class="d-block img-fluid" src="http://fillmurray.com/350/550" alt="Third slide">
+					<img class="d-block img-fluid" src="http://fillmurray.com/500/500" alt="Third slide">
 				</div>
 			</div>
 			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -158,12 +160,15 @@
 			</a>
 		</div>
 
-<!--				<div class=" rounded p-0 d-flex flex-wrap col-sm col-lg-8 mx-auto portfoliocontainer">-->
-<!--					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-thumbnail "/></a>-->
-<!--					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-thumbnail "/></a>-->
-<!--					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-thumbnail "/></a>-->
-<!---->
-<!--				</div>-->
+				<div class=" rounded p-0 d-flex flex-wrap col-sm col-lg-8 mx-auto portfoliocontainer">
+					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-thumbnail portfoliocontainer "/></a>
+					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-thumbnail portfoliocontainer "/></a>
+					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-thumbnail portfoliocontainer "/></a>
+
+				</div>
+	</div>
+	<div class="dividerbgsmall1">
+
 	</div>
 
 

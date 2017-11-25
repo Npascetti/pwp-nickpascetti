@@ -79,7 +79,30 @@ figure {
 
 .carousel-item > img {
 	margin: auto;
-	width: 33%;
-	height: 75%;
+	width: 40%;
+	max-height: 80vh;
+}
+.dividerbgsmall1 {
+	background-image: url("../../images/drywall.jpeg");
+	background-attachment: fixed;
+	height: 3rem;
 }
 
+@media screen and (max-width: 800px) and (orientation: portrait) {
+	#carouselExampleIndicators {
+		display: none;
+	}
+	.carousel-item, .carousel-control-next, .carousel-control-prev, .carousel-control-next-icon, .carousel-control-prev-icon {
+		display: none;
+	}
+}
+
+.portfoliocontainer {
+	display: none;
+}
+
+@media screen and (max-width: 800px) and (orientation: portrait) {
+	.portfoliocontainer {
+		display: unset;
+	}
+}
