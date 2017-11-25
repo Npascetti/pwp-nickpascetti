@@ -42,13 +42,13 @@
 			</nav>
 			<div class="d-flex flex-column">
 			<div class="text-left justify-content-start my-5 ml-5">
-			<h2><strong>I</strong>ntuitive <strong>D</strong>esign</h2>
+				<h2><strong>C</strong>reative <strong>I</strong>nsight</h2>
 			</div>
 			<div class="text-center justify-content-center my-5">
 				<h2><strong>C</strong>lean <strong>S</strong>imple</h2>
 			</div>
 			<div class="text-right justify-content-end my-5 mr-5">
-				<h2><strong>C</strong>reative <strong>I</strong>nsight</h2>
+				<h2><strong>I</strong>ntuitive <strong>D</strong>esign</h2>
 			</div>
 			</div>
 			</div>
@@ -67,8 +67,8 @@
 				<div class = "col-sm col-lg-3 ">
 					<div class="thumbnail text-center">
 						<div>
-							<h5>Elegant and Functional</h5>
-							<h6>UI|UX</h6>
+							<h5 class="font-weight-bold">Elegant and Functional</h5>
+							<h6 class="font-weight-bold">UI|UX</h6>
 						</div>
 						<figure class = " figure-caption border rounded">
 							<figcaption class="text-center text-dark">
@@ -82,8 +82,8 @@
 				<div class = "col-sm col-lg-3 py-5 ">
 					<div class="thumbnail text-center">
 						<div>
-							<h5>Mobile Web App</h5>
-							<h6>Creation and Conversion</h6>
+							<h5 class="font-weight-bold">Mobile Web App</h5>
+							<h6 class="font-weight-bold">Creation and Conversion</h6>
 						</div>
 						<figure class = " figure-caption border rounded ">
 							<figcaption class="text-center text-dark">
@@ -97,8 +97,8 @@
 				<div class = "col-sm col-lg-3">
 					<div class="thumbnail text-center">
 						<div>
-							<h5>Custom WordPress</h5>
-							<h6>CMS Solutions</h6>
+							<h5 class="font-weight-bold">Custom WordPress</h5>
+							<h6 class="font-weight-bold">CMS Solutions</h6>
 						</div>
 						<figure class = " figure-caption border rounded">
 							<figcaption class="text-center text-dark">
