@@ -16,27 +16,27 @@
 	</head>
 <!--		Div containing landing area, nav, and background image-->
 		<div class="container-fluid" id="bgimage">
-			<nav class="navbar row">
+			<nav class="navbar row mb-5">
 				<a class="nav-link mr-auto col-xs-4 col-3" href="#">Logo Button</a>
 				<ul class="navbar-nav ml-auto col-xs-2">
 					<li class="nav-item">
-						<a class="nav-link" href="#">About Me</a>
+						<a class="nav-link text-dark" href="#">Services</a>
 					</li>
+<!--					<li class="nav-item">-->
+<!--						<a class="nav-link" href="#">Portfolio</a>-->
+<!--					</li>-->
+<!--					<li class="nav-item">-->
+<!--						<a class="nav-link" href="#">Services</a>-->
+<!--					</li>-->
+				</ul>
+				<ul class="navbar-nav ml-auto col-xs-2">
 					<li class="nav-item">
-						<a class="nav-link" href="#">Portfolio</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Services</a>
+						<a class="nav-link text-dark" href="#">Portfolio</a>
 					</li>
 				</ul>
 				<ul class="navbar-nav ml-auto col-xs-2">
 					<li class="nav-item">
-						<a class="nav-link" href="#">Contact Form</a>
-					</li>
-				</ul>
-				<ul class="navbar-nav ml-auto col-xs-2">
-					<li class="nav-item">
-						<a class="nav-link" href="#">Legal</a>
+						<a class="nav-link text-dark" href="#">Contact</a>
 					</li>
 				</ul>
 			</nav>
@@ -158,9 +158,9 @@
 			</a>
 		</div>
 
-				<div class=" rounded p-0 d-flex flex-wrap col-sm col-lg-8 mx-auto portfoliocontainer">
+				<div class=" rounded p-0 d-flex flex-wrap col-sm col-lg-8 mx-auto align-items-center portfoliocontainer">
 					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-thumbnail portfoliocontainer "/></a>
-					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-thumbnail portfoliocontainer mt-3 "/></a>
+					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-thumbnail portfoliocontainer my-3 "/></a>
 					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-thumbnail portfoliocontainer "/></a>
 
 				</div>
