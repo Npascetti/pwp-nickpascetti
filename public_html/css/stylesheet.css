@@ -46,6 +46,7 @@ body {
 .portfoliocontainer1 {
 	background-image: url("../../images/drywall.jpeg");
 	background-attachment: fixed;
+	height: auto;
 }
 
 .portfolioheader {
@@ -78,5 +79,7 @@ figure {
 
 .carousel-item > img {
 	margin: auto;
-	width: 50%;
+	width: 33%;
+	height: 75%;
 }
+
