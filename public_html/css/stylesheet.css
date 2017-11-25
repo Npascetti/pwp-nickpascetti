@@ -101,7 +101,7 @@ figure {
 	display: none;
 }
 
-@media screen and (max-width: 800px) and (orientation: portrait) {
+@media screen and (max-width: 750px) and (orientation: portrait) {
 	.portfoliocontainer {
 		display: unset;
 	}
