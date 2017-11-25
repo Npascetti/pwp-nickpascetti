@@ -61,8 +61,8 @@
 		<div class="dividerbg">
 
 		</div>
-		<div class="container-fluid d-flex">
-			<div class="row d-flex justify-content-between">
+		<div class="container-fluid d-flex ">
+			<div class="row d-flex justify-content-between align-items-center">
 
 				<div class = "col-sm col-lg-3 ">
 					<div class="thumbnail text-center">
@@ -79,7 +79,7 @@
 					</div>
 				</div>
 
-				<div class = "col-sm col-lg-3 ">
+				<div class = "col-sm col-lg-3 my-4 ">
 					<div class="thumbnail text-center">
 						<div>
 							<h5>Mobile Web App</h5>
@@ -113,14 +113,16 @@
 		<div class="dividerbg">
 
 		</div>
+
 <!--		div containing footer for services section-->
 
 
 
-		<div class="container-fluid rounded secheader">
-			<h3 class="ml-3"><strong>A</strong>lways <strong>M</strong>obile <strong>F</strong>irst</h3>
-			<h3 class="text-right mr-3 mb-0"><strong>A</strong>lways <strong>R</strong>esponsive <strong>D</strong>esign</h3>
-		</div>
+
+	</div>
+	<div class="container-fluid rounded secheader">
+		<h3 class="ml-3"><strong>A</strong>lways <strong>M</strong>obile <strong>F</strong>irst</h3>
+		<h3 class="text-right mr-3 mb-0"><strong>A</strong>lways <strong>R</strong>esponsive <strong>D</strong>esign</h3>
 	</div>
 		<div class="dividerbgsmall">
 
@@ -130,9 +132,7 @@
 			<div class="container-fluid rounded py-3 secheader	">
 				<h1 class="text-right"><strong>P</strong>ortfolio</h1>
 			</div>
-<div class="dividerbgsmall1">
 
-</div>
 		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators">
 				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -162,14 +162,12 @@
 
 				<div class=" rounded p-0 d-flex flex-wrap col-sm col-lg-8 mx-auto portfoliocontainer">
 					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-thumbnail portfoliocontainer "/></a>
-					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-thumbnail portfoliocontainer "/></a>
+					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-thumbnail portfoliocontainer mt-3 mb-3 "/></a>
 					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-thumbnail portfoliocontainer "/></a>
 
 				</div>
 	</div>
-	<div class="dividerbgsmall1">
 
-	</div>
 
 
 
