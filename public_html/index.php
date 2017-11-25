@@ -5,6 +5,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
 		<link rel="stylesheet" href="css/stylesheet.css" type="text/css" />
+		<script src="JS/animations.js" type="text/javascript" async></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="//cdn.jsdelivr.net/velocity/1.1.0/velocity.min.js"></script>
 
 		<!--Bootstrap CSS-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous" />
@@ -41,8 +44,8 @@
 				</ul>
 			</nav>
 			<div class="d-flex flex-column">
-			<div class="text-left justify-content-start my-5 ml-5">
-				<h2><strong>C</strong>reative <strong>I</strong>nsight</h2>
+			<div class="text-left justify-content-start my-5 ml-5 c-header">
+				<h2 class="c-header"><strong>C</strong>reative <strong>I</strong>nsight</h2>
 			</div>
 			<div class="text-center justify-content-center my-5">
 				<h2><strong>C</strong>lean <strong>S</strong>imple</h2>
@@ -200,7 +203,7 @@
 					<label for="exampleTextarea"><strong>Services You Are Interested In</strong></label>
 					<textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
 				</div>
-				<button type="submit" class="btn btn-primary">Send</button>
+				<button type="submit" class="btn btn-primary">Bring it to Life</button>
 			</form>
 				</div>
 <!--				Col containing about me section-->
