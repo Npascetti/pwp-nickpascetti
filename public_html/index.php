@@ -61,7 +61,7 @@
 		<div class="dividerbg">
 
 		</div>
-		<div class="container-fluid d-flex ">
+		<div class="container-fluid d-flex">
 			<div class="row d-flex justify-content-between align-items-center">
 
 				<div class = "col-sm col-lg-3 ">
@@ -71,7 +71,7 @@
 							<h6>UI|UX</h6>
 						</div>
 						<figure class = " figure-caption border rounded">
-							<figcaption class="text-center">
+							<figcaption class="text-center text-dark">
 								Let's get crazy. Isn't it great to do something you can't fail at? Let's make a happy little mountain now. You don't have to be crazy to do this but it does help. If you don't like it - change it. It's your world.
 							</figcaption>
 							<img src="http://fillmurray.com/50/50" class="figure-img img-fluid rounded" alt="placeholderimg." />
@@ -79,14 +79,14 @@
 					</div>
 				</div>
 
-				<div class = "col-sm col-lg-3 my-4 ">
+				<div class = "col-sm col-lg-3 py-5 ">
 					<div class="thumbnail text-center">
 						<div>
 							<h5>Mobile Web App</h5>
 							<h6>Creation and Conversion</h6>
 						</div>
 						<figure class = " figure-caption border rounded ">
-							<figcaption class="text-center">
+							<figcaption class="text-center text-dark">
 								That's a crooked tree. We'll send him to Washington. Just let this happen. We just let this flow right out of our minds. Just think about these things in your mind and drop em' on canvas. And just raise cain. Isn't it great.
 							</figcaption>
 							<img src="http://fillmurray.com/50/50" class="figure-img img-fluid rounded" alt="placeholderimg." />
@@ -101,7 +101,7 @@
 							<h6>CMS Solutions</h6>
 						</div>
 						<figure class = " figure-caption border rounded">
-							<figcaption class="text-center">
+							<figcaption class="text-center text-dark">
 								These trees are so much fun. I get started on them and I have a hard time stopping. You can create beautiful things - but you have to see them in your mind first. We need dark in order to show light.
 							</figcaption>
 							<img src="http://fillmurray.com/50/50" class="figure-img img-fluid rounded" alt="placeholderimg." />
@@ -113,16 +113,14 @@
 		<div class="dividerbg">
 
 		</div>
-
 <!--		div containing footer for services section-->
 
 
 
-
-	</div>
-	<div class="container-fluid rounded secheader">
-		<h3 class="ml-3"><strong>A</strong>lways <strong>M</strong>obile <strong>F</strong>irst</h3>
-		<h3 class="text-right mr-3 mb-0"><strong>A</strong>lways <strong>R</strong>esponsive <strong>D</strong>esign</h3>
+		<div class="container-fluid rounded secheader">
+			<h3 class="ml-3"><strong>A</strong>lways <strong>M</strong>obile <strong>F</strong>irst</h3>
+			<h3 class="text-right mr-3 mb-0"><strong>A</strong>lways <strong>R</strong>esponsive <strong>D</strong>esign</h3>
+		</div>
 	</div>
 		<div class="dividerbgsmall">
 
@@ -162,7 +160,7 @@
 
 				<div class=" rounded p-0 d-flex flex-wrap col-sm col-lg-8 mx-auto portfoliocontainer">
 					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-thumbnail portfoliocontainer "/></a>
-					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-thumbnail portfoliocontainer mt-3 mb-3 "/></a>
+					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-thumbnail portfoliocontainer mt-3 "/></a>
 					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-thumbnail portfoliocontainer "/></a>
 
 				</div>
