@@ -193,26 +193,26 @@
 			<div class="row">
 				<div class="col-sm-6 col-lg-8">
 					<h2 class="text-center"><strong>W</strong>ho <strong>A</strong>re <strong>Y</strong>ou?</h2>
-			<form>
+			<form id="contactform">
 				<div class="form-group">
-					<label for="exampleInputEmail1"><strong>Your Name</strong></label>
-					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your name">
+					<label for="nameinput"><strong>Your Name</strong></label>
+					<input type="text" class="form-control" id="nameinput" name="nameinput" aria-describedby="emailHelp" placeholder="Enter your name">
 				</div>
 				<div class="form-group">
-					<label for="exampleInputPassword1"><strong>Email Address</strong></label>
-					<input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter your email">
+					<label for="emailinput"><strong>Email Address</strong></label>
+					<input type="email" class="form-control" id="emailinput" name="emailinput" placeholder="Enter your email">
 				</div>
 				<div class="form-group">
-					<label for="exampleInputPhone"><strong>Phone Number</strong></label>
-					<input type="email" class="form-control" id="exampleInputPhone" placeholder="(505)-555-5555">
+					<label for="phoneinput"><strong>Phone Number</strong></label>
+					<input type="text" class="form-control" id="phoneinput" name="phoneinput" placeholder="(505)-555-5555">
 				</div>
 				<div class="form-group">
-					<label for="exampleInputCompanyName"><strong>Company Name</strong></label>
-					<input type="text" class="form-control" id="exampleInputCompanyName" placeholder="Company Name">
+					<label for="companynameinput"><strong>Company Name</strong></label>
+					<input type="text" class="form-control" id="companynameinput" name="companynameinput" placeholder="Company Name">
 				</div>
 				<div class="form-group">
-					<label for="exampleTextarea"><strong>Services You Are Interested In</strong></label>
-					<textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+					<label for="servicesinput"><strong>Services You Are Interested In</strong></label>
+					<textarea class="form-control" id="servicesinput" name="servicesinput" rows="3"></textarea>
 				</div>
 				<button type="submit" class="btn btn-primary">Bring it to Life</button>
 			</form>
