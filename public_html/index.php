@@ -10,7 +10,7 @@
 		<!--Bootstrap CSS-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous" />
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
@@ -193,7 +193,8 @@
 			<div class="row">
 				<div class="col-sm-6 col-lg-8">
 					<h2 class="text-center"><strong>W</strong>ho <strong>A</strong>re <strong>Y</strong>ou?</h2>
-			<form id="contactform">
+				<!---------CONTACT FORM START----------------->
+			<form id="contactform" action="php/mailer.php" method="post" novalidate>
 				<div class="form-group">
 					<label for="nameinput"><strong>Your Name</strong></label>
 					<input type="text" class="form-control" id="nameinput" name="nameinput" aria-describedby="emailHelp" placeholder="Enter your name">
@@ -211,11 +212,24 @@
 					<input type="text" class="form-control" id="companynameinput" name="companynameinput" placeholder="Company Name">
 				</div>
 				<div class="form-group">
+					<label for="subjectinput"><strong>Subject</strong></label>
+					<input type="text" class="form-control" id="subjectinput" name="subjectinput" placeholder="Subject">
+				</div>
+				<div class="form-group">
 					<label for="servicesinput"><strong>Services You Are Interested In</strong></label>
 					<textarea class="form-control" id="servicesinput" name="servicesinput" rows="3"></textarea>
 				</div>
+				<!--------GOOGLE RECAPTCHA----------->
+				<div class="g-recaptcha" data-sitekey="6LeZljoUAAAAAMTm6tbn-MrVytzhzsEW1JnNHW0z"></div>
 				<button type="submit" class="btn btn-primary">Bring it to Life</button>
+
 			</form>
+					<!---------EMPTY OUTPUT AREA FOR FORM ERROR/SUCCESS OUTPUT------>
+					<div class="row">
+						<div class="col">
+							<div id="output-area"></div>
+						</div>
+					</div>
 				</div>
 <!--				Col containing about me section-->
 				<div class="col-sm-6 col-lg-4 d-flex flex-column flex-wrap border border-top-0 border-bottom-0 border-right-0">

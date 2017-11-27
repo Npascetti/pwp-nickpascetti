@@ -41,33 +41,43 @@ $(document).ready(function(){
 			companynameinput: {
 				required: false,
 				maxlength: 75
-			}
+			},
 			servicesinput: {
 				required: true,
 				maxlength: 2000
+			},
+			subjectinput: {
+				required: true,
+				maxlength: 50
 			}
 		},
 
 		// error messages to display to the end user when rules above don't pass
 		messages: {
-			name: {
-				required: "Please enter your name."
+			nameinput: {
+				required: "Please enter your name.",
+				maxlength: "That's a really long name, try entering a shorter nickname instead."
 			},
-			email: {
+			emailinput: {
 				email: "Please enter a valid email address.",
-				required: "Please enter a valid email address."
+				required: "Please enter a valid email address.",
+				maxlength: "128 characters max"
 			},
-			message: {
+			servicesinput: {
 				required: "Please enter a message.",
 				maxlength: "2000 characters max."
+			},
+			subjectinput: {
+				required: "Please enter a subject for your email.",
+				maxlength: "50"
 			}
 		},
 
 		// AJAX submit the form data to back end if rules pass
 		submitHandler: function(form) {
-			$("#contact-form").ajaxSubmit({
+			$("#contactform").ajaxSubmit({
 				type: "POST",
-				url: $("#contact-form").attr("action"),
+				url: $("#contactform").attr("action"),
 
 				success: function(ajaxOutput) {
 					// clear the output area's formatting
@@ -78,7 +88,7 @@ $(document).ready(function(){
 
 					// reset the form if it was successful
 					if($(".alert-success").length >= 1) {
-						$("#contact-form")[0].reset();
+						$("#contactform")[0].reset();
 					}
 				}
 			})

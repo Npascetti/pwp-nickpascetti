@@ -29,10 +29,12 @@ try {
 	 * This assumes jQuery (NOT Angular!) will be AJAX submitting the form,
 	 * so we're using the $_POST superglobal.
 	 **/
-	$name = filter_input(INPUT_POST, "name", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
-	$email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
-	$subject = filter_input(INPUT_POST, "subject", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
-	$message = filter_input(INPUT_POST, "message", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$nameinput = filter_input(INPUT_POST, "nameinput", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$emailinput = filter_input(INPUT_POST, "emailinput", FILTER_SANITIZE_EMAIL);
+	$phoneinput = filter_input(INPUT_POST, "phoneinput", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$companynameinput = filter_input(INPUT_POST, "companynameinput", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$servicesinput = filter_input(INPUT_POST, "servicesinput", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$subjectinput = filter_input(INPUT_POST, "subjectinput", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 
 	// create Swift message
 	$swiftMessage = new Swift_Message();
@@ -41,7 +43,7 @@ try {
 	 * Attach the sender to the message.
 	 * This takes the form of an associative array where $email is the key for the real name.
 	 **/
-	$swiftMessage->setFrom([$email => $name]);
+	$swiftMessage->setFrom([$emailinput => $nameinput]);
 
 	/**
 	 * Attach the recipients to the message.
@@ -51,7 +53,7 @@ try {
 	$swiftMessage->setTo($recipients);
 
 	// attach the subject line to the message
-	$swiftMessage->setSubject($subject);
+	$swiftMessage->setSubject($subjectinput);
 
 	/**
 	 * Attach the actual message to the message.
@@ -64,8 +66,8 @@ try {
 	 * this lets users who aren't viewing HTML content in Emails still access your
 	 * links.
 	 **/
-	$swiftMessage->setBody($message, "text/html");
-	$swiftMessage->addPart(html_entity_decode($message), "text/plain");
+	$swiftMessage->setBody($servicesinput, "text/html");
+	$swiftMessage->addPart(html_entity_decode($servicesinput), "text/plain");
 
 	/**
 	 * Send the Email via SMTP. The SMTP server here is configured to relay
