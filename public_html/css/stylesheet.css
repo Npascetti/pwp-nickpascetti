@@ -4,7 +4,8 @@ html, body {
 
 #bgimage {
 	background-image: url("../../images/croppedwallbg.png");
-	height: 85vh;
+	height: 90vh;
+	min-width: 100%;
 	background-attachment: fixed;
 }
 

@@ -29,7 +29,7 @@
 		<title>Nick's PWP</title>
 	</head>
 <!--		Div containing landing area, nav, and background image-->
-<body>
+<body>	<div class="container-fluid">
 			<nav class="navbar row">
 				<a class="nav-link mr-auto col-xs-4 col-3 " href="#">Home</a>
 				<ul class="navbar-nav ml-auto col-xs-2">
@@ -54,6 +54,7 @@
 					</li>
 				</ul>
 			</nav>
+	</div>
 	<div class="container-fluid d-flex align-items-center justify-content-center" id="bgimage">
 			<div class="d-flex align-items-center justify-content-center" id="splash">
 <!--			<div class="text-left justify-content-start my-5 ml-5 c-header">-->
@@ -88,7 +89,7 @@
 						</div>
 						<figure class = " figure-caption border rounded">
 							<figcaption class="text-center text-dark">
-								Let's get crazy. Isn't it great to do something you can't fail at? Let's make a happy little mountain now. You don't have to be crazy to do this but it does help. If you don't like it - change it. It's your world.
+								User interface and experience are the most vital components of your site for your end users and customers. I believe in never compromising usability at the expense of aesthetic design. Less is more.
 							</figcaption>
 							<img src="http://fillmurray.com/50/50" class="figure-img img-fluid rounded" alt="placeholderimg." />
 						</figure>
@@ -103,7 +104,7 @@
 						</div>
 						<figure class = " figure-caption border rounded ">
 							<figcaption class="text-center text-dark">
-								That's a crooked tree. We'll send him to Washington. Just let this happen. We just let this flow right out of our minds. Just think about these things in your mind and drop em' on canvas. And just raise cain. Isn't it great.
+								Do you have a site or web app that you're looking to convert to a mobile app? I create and convert applications for use on iOS and Android devices using Ionic Framework.
 							</figcaption>
 							<img src="http://fillmurray.com/50/50" class="figure-img img-fluid rounded" alt="placeholderimg." />
 						</figure>
@@ -118,7 +119,7 @@
 						</div>
 						<figure class = " figure-caption border rounded">
 							<figcaption class="text-center text-dark">
-								These trees are so much fun. I get started on them and I have a hard time stopping. You can create beautiful things - but you have to see them in your mind first. We need dark in order to show light.
+								Do you want to manage your own site content, but just need help building it? I can help you create a customized WordPress site that can then be handed off to you to manage yourself.
 							</figcaption>
 							<img src="http://fillmurray.com/50/50" class="figure-img img-fluid rounded" alt="placeholderimg." />
 						</figure>
@@ -232,15 +233,15 @@
 <!--				Col containing about me section-->
 				<div class="col-sm-6 col-lg-4 d-flex flex-column flex-wrap border border-top-0 border-bottom-0 border-right-0">
 					<h2 class="text-center"><strong>W</strong>ho <strong>A</strong>m <strong>I</strong>?</h2>
-					<p>Quis meatball ut t-bone, ball tip andouille nulla consequat minim aliquip cillum sed velit qui. Adipisicing reprehenderit excepteur non salami. Et t-bone shankle eu kevin pork aliqua aliquip. Corned beef do veniam aliqua enim prosciutto sausage id ut consequat ut buffalo.</p>
+					<p>Hello! My name is Nick Pascetti, and I'm a full-stack web developer. I would love to help you with your development needs. I believe in clean and clear design solutions, emphasizing usability and functionality. Contact me for a friendly, smiling face to work with you on designing your site.</p>
 					<p class="my-0"><small><strong>Call</strong></small></p>
-					<p class="my-0">505<strong>-</strong>555<strong>-</strong>5555</p>
+					<p class="my-0">505<strong>-</strong>288<strong>-</strong>1009</p>
 					<div class="d-flex flex-row justify-content-between">
-					<img src="http://fillmurray.com/g/200/300" class="rounded-circle" alt="Cinque Terre" />
+					<img src="../../images/nickresized.jpg" class="rounded-circle" alt="Cinque Terre" />
 						<div class="d-flex flex-column">
 					<p class="text-right my-0"><small><strong>Email</strong></small></p>
-					<p class="text-right my-0" >Npascetti<strong>@</strong></p>
-					<p class="text-right my-0"><small>Npascetti<strong>.</strong>com</small></p>
+					<p class="text-right my-0" >Nick<strong>@</strong></p>
+					<p class="text-right my-0"><small>Nickpascetti<strong>.</strong>com</small></p>
 								<a href="https://github.com/npascetti"><img src="../images/GitHub-Mark-64px.png" alt="githubmark" class="p-2"></a>
 								<a href="https://github.com/npascetti"><img src="../images/linkedin.png" alt="githubmark" class="p-2"></a>
 								<a href="https://github.com/npascetti"><img src="../images/GitHub-Mark-64px.png" alt="githubmark" class="p-2"></a>
