@@ -29,12 +29,12 @@
 		<title>Nick's PWP</title>
 	</head>
 <!--		Div containing landing area, nav, and background image-->
-
+<body>
 			<nav class="navbar row">
-				<a class="nav-link mr-auto col-xs-4 col-3 text-dark" href="#">Home</a>
+				<a class="nav-link mr-auto col-xs-4 col-3 " href="#">Home</a>
 				<ul class="navbar-nav ml-auto col-xs-2">
 					<li class="nav-item">
-						<a class="nav-link text-dark" href="#">Services</a>
+						<a class="nav-link" href="#">Services</a>
 					</li>
 <!--					<li class="nav-item">-->
 <!--						<a class="nav-link" href="#">Portfolio</a>-->
@@ -45,12 +45,12 @@
 				</ul>
 				<ul class="navbar-nav ml-auto col-xs-2">
 					<li class="nav-item">
-						<a class="nav-link text-dark" href="#">Portfolio</a>
+						<a class="nav-link" href="#">Portfolio</a>
 					</li>
 				</ul>
 				<ul class="navbar-nav ml-auto col-xs-2">
 					<li class="nav-item">
-						<a class="nav-link text-dark" href="#">Contact</a>
+						<a class="nav-link" href="#">Contact</a>
 					</li>
 				</ul>
 			</nav>
@@ -80,7 +80,7 @@
 		<div class="container-fluid d-flex">
 			<div class="row d-flex justify-content-between align-items-center">
 
-				<div class = "col-sm col-lg-3 ">
+				<div class = "col-sm col-lg-3 py-5 ">
 					<div class="thumbnail text-center">
 						<div>
 							<h5 class="font-weight-bold">Elegant and Functional</h5>
@@ -110,7 +110,7 @@
 					</div>
 				</div>
 
-				<div class = "col-sm col-lg-3">
+				<div class = "col-sm col-lg-3 py-5">
 					<div class="thumbnail text-center">
 						<div>
 							<h5 class="font-weight-bold">Custom WordPress</h5>
@@ -205,10 +205,10 @@
 					<label for="emailinput"><strong>*Email Address</strong></label>
 					<input type="email" class="form-control" id="emailinput" name="emailinput" placeholder="Enter your email">
 				</div>
-				<div class="form-group">
-					<label for="phoneinput"><strong>Phone Number</strong></label>
-					<input type="text" class="form-control" id="phoneinput" name="phoneinput" placeholder="(505)-555-5555">
-				</div>
+<!--				<div class="form-group">-->
+<!--					<label for="phoneinput"><strong>Phone Number</strong></label>-->
+<!--					<input type="text" class="form-control" id="phoneinput" name="phoneinput" placeholder="(505)-555-5555">-->
+<!--				</div>-->
 				<div class="form-group">
 					<label for="subjectinput"><strong>*Subject</strong></label>
 					<input type="text" class="form-control" id="subjectinput" name="subjectinput" placeholder="Subject">

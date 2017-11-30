@@ -117,7 +117,7 @@ figure {
 .nav-link {
 	text-decoration: underline;
 	font-weight: bold;
-	text-decoration-color: #5C280E;
+	color: #5C280E !important;
 }
 
 footer {
@@ -127,3 +127,4 @@ footer {
 #splash {
 	height: auto;
 }
+
