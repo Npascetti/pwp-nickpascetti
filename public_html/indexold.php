@@ -237,7 +237,7 @@
 					<p class="my-0"><small><strong>Call</strong></small></p>
 					<p class="my-0">505<strong>-</strong>288<strong>-</strong>1009</p>
 					<div class="d-flex flex-row justify-content-between">
-					<img src="../../images/headshot.jpg" class="rounded-circle" alt="Cinque Terre" />
+					<img src="../images/proheadshot.jpg" class="rounded-circle" alt="Cinque Terre" />
 						<div class="d-flex flex-column">
 					<p class="text-right my-0"><small><strong>Email</strong></small></p>
 					<p class="text-right my-0" >Nick<strong>@</strong></p>
