@@ -74,9 +74,9 @@
 				<h1 class="text-right"><strong>S</strong>ervices</h1>
 		</div>
 <!--		Div containing services cards-->
-		<div class="dividerbg">
-
-		</div>
+<!--		<div class="dividerbg">-->
+<!---->
+<!--		</div>-->
 		<div class="container-fluid d-flex">
 			<div class="row d-flex justify-content-between align-items-center">
 
@@ -126,9 +126,9 @@
 		</div>
 			</div>
 		</div>
-		<div class="dividerbg">
-
-		</div>
+<!--		<div class="dividerbg">-->
+<!---->
+<!--		</div>-->
 <!--		div containing footer for services section-->
 
 
@@ -138,16 +138,16 @@
 <!--			<h3 class="text-right mr-3 mb-0"><strong>A</strong>lways <strong>R</strong>esponsive <strong>D</strong>esign</h3>-->
 <!--		</div>-->
 	</div>
-		<div class="dividerbgsmall">
-
-		</div>
+<!--		<div class="dividerbgsmall">-->
+<!---->
+<!--		</div>-->
 <!--		Div containing the portfolio section-->
 	<div class="portfoliocontainer1">
 <!--			<div class="container-fluid rounded py-3 secheader	">-->
 <!--				<h1 class="text-right"><strong>P</strong>ortfolio</h1>-->
 <!--			</div>-->
 
-		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		<div id="carouselExampleIndicators" class="carousel slide mb-5" data-ride="carousel">
 			<ol class="carousel-indicators">
 				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
