@@ -4,12 +4,12 @@ html, body {
 
 #bgimage {
 	background-image: url("../../images/croppedwallbg.png");
-	height: 100vh;
+	height: 85vh;
 	background-attachment: fixed;
 }
 
 .services {
-	background-image: url("../../images/drywall.jpeg");
+	background-image: url("../../images/croppedwallbg.png");
 	/*min-height: 80vh;*/
 	background-attachment: fixed;
 	}
@@ -24,10 +24,10 @@ html, body {
 
 
 
-#bgimage1 {
-	background-image: url("../../images/croppedfooterbg.png");
-	height: 15vh;
-}
+/*#bgimage1 {*/
+	/*background-image: url("../../images/croppedwallbg.png");*/
+	/*height: 15vh;*/
+/*}*/
 
 body {
 	/*background-image: url("../../images/croppedwallbg.png");*/
@@ -44,7 +44,7 @@ body {
 }
 
 .portfoliocontainer1 {
-	background-image: url("../../images/drywall.jpeg");
+	background-image: url("../../images/croppedwallbg.png");
 	background-attachment: fixed;
 	height: auto;
 }
@@ -54,12 +54,12 @@ body {
 }
 
 .contacts {
-	background-image: url("../../images/drywall.jpeg");
+	background-image: url("../../images/croppedwallbg.png");
 	background-attachment: fixed;
 }
 
 .dividerbg {
-	background-image: url("../../images/drywall.jpeg");
+	background-image: url("../../images/croppedwallbg.png");
 	background-attachment: fixed;
 	height: 13vh;
 }
@@ -70,11 +70,13 @@ body {
 }
 
 figure {
-	background-color: rgba(255, 251, 218, 0.4);
+	background-color: rgba(244,240,224, 0.95);
 }
 
 .secheader {
-	background-color: rgba(255, 251, 218, 0.4);
+	background-color: rgba(244,240,224, 0.95);
+	border: solid;
+	border-color: #EC8D0C;
 }
 
 .carousel-item > img {
@@ -83,7 +85,7 @@ figure {
 	max-height: 80vh;
 }
 .dividerbgsmall1 {
-	background-image: url("../../images/drywall.jpeg");
+	background-image: url("../../images/croppedwallbg.png");
 	background-attachment: fixed;
 	height: 3rem;
 }
@@ -108,11 +110,20 @@ figure {
 }
 
 .navbar {
-	/*background-color: rgba(79, 75, 71, 0.6);*/
-	height: 15vh;
+	background-color: #EC8D0C;
+	height: 10vh;
 }
 
 .nav-link {
 	text-decoration: underline;
 	font-weight: bold;
+	text-decoration-color: #5C280E;
+}
+
+footer {
+	background-color: #EC8D0C;
+}
+
+#splash {
+	height: auto;
 }

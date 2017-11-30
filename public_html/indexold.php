@@ -28,50 +28,52 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.min.js"></script>
 		<title>Nick's PWP</title>
 	</head>
-	<!--		Div containing landing area, nav, and background image-->
-	<div id="bgimage">
-		<nav class="navbar row mb-5">
-			<a class="nav-link mr-auto col-xs-4 col-3 text-dark" href="#">Home</a>
-			<ul class="navbar-nav ml-auto col-xs-2">
-				<li class="nav-item">
-					<a class="nav-link text-dark" href="#">Services</a>
-				</li>
-				<!--					<li class="nav-item">-->
-				<!--						<a class="nav-link" href="#">Portfolio</a>-->
-				<!--					</li>-->
-				<!--					<li class="nav-item">-->
-				<!--						<a class="nav-link" href="#">Services</a>-->
-				<!--					</li>-->
-			</ul>
-			<ul class="navbar-nav ml-auto col-xs-2">
-				<li class="nav-item">
-					<a class="nav-link text-dark" href="#">Portfolio</a>
-				</li>
-			</ul>
-			<ul class="navbar-nav ml-auto col-xs-2">
-				<li class="nav-item">
-					<a class="nav-link text-dark" href="#">Contact</a>
-				</li>
-			</ul>
-		</nav>--
-		<div class="d-flex flex-column">
+<!--		Div containing landing area, nav, and background image-->
+
+			<nav class="navbar row">
+				<a class="nav-link mr-auto col-xs-4 col-3 text-dark" href="#">Home</a>
+				<ul class="navbar-nav ml-auto col-xs-2">
+					<li class="nav-item">
+						<a class="nav-link text-dark" href="#">Services</a>
+					</li>
+<!--					<li class="nav-item">-->
+<!--						<a class="nav-link" href="#">Portfolio</a>-->
+<!--					</li>-->
+<!--					<li class="nav-item">-->
+<!--						<a class="nav-link" href="#">Services</a>-->
+<!--					</li>-->
+				</ul>
+				<ul class="navbar-nav ml-auto col-xs-2">
+					<li class="nav-item">
+						<a class="nav-link text-dark" href="#">Portfolio</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav ml-auto col-xs-2">
+					<li class="nav-item">
+						<a class="nav-link text-dark" href="#">Contact</a>
+					</li>
+				</ul>
+			</nav>
+	<div class="container-fluid d-flex align-items-center justify-content-center" id="bgimage">
+			<div class="d-flex align-items-center justify-content-center" id="splash">
 <!--			<div class="text-left justify-content-start my-5 ml-5 c-header">-->
 <!--				<h2 class="c-header"><strong>C</strong>reative <strong>I</strong>nsight</h2>-->
 <!--			</div>-->
 			<div class="text-center justify-content-center my-5">
-				<h1><strong>C</strong>lean <strong>S</strong>imple</h1>
+				<h1><strong>p</strong>ascetti<strong>C</strong>ode</h1>
+				<h2>Full-Stack Web Development</h2>
 			</div>
 <!--			<div class="text-right justify-content-end my-5 mr-5">-->
 <!--				<h2><strong>I</strong>ntuitive <strong>D</strong>esign</h2>-->
 <!--			</div>-->
-		</div>
-	</div>
-	<!--		Div for services section-->
+			</div>
+			</div>
+<!--		Div for services section-->
 	<div class="services">
 		<div class="container-fluid rounded py-3 secheader">
-			<h1 class="text-right"><strong>S</strong>ervices</h1>
+				<h1 class="text-right"><strong>S</strong>ervices</h1>
 		</div>
-		<!--		Div containing services cards-->
+<!--		Div containing services cards-->
 		<div class="dividerbg">
 
 		</div>
@@ -121,29 +123,29 @@
 							<img src="http://fillmurray.com/50/50" class="figure-img img-fluid rounded" alt="placeholderimg." />
 						</figure>
 					</div>
-				</div>
+		</div>
 			</div>
 		</div>
 		<div class="dividerbg">
 
 		</div>
-		<!--		div containing footer for services section-->
+<!--		div containing footer for services section-->
 
 
 
-		<!--		<div class="container-fluid rounded secheader">-->
-		<!--			<h3 class="ml-3"><strong>A</strong>lways <strong>M</strong>obile <strong>F</strong>irst</h3>-->
-		<!--			<h3 class="text-right mr-3 mb-0"><strong>A</strong>lways <strong>R</strong>esponsive <strong>D</strong>esign</h3>-->
-		<!--		</div>-->
+<!--		<div class="container-fluid rounded secheader">-->
+<!--			<h3 class="ml-3"><strong>A</strong>lways <strong>M</strong>obile <strong>F</strong>irst</h3>-->
+<!--			<h3 class="text-right mr-3 mb-0"><strong>A</strong>lways <strong>R</strong>esponsive <strong>D</strong>esign</h3>-->
+<!--		</div>-->
 	</div>
-	<div class="dividerbgsmall">
+		<div class="dividerbgsmall">
 
-	</div>
-	<!--		Div containing the portfolio section-->
-	<div class="portfoliocontainer1">
-		<div class="container-fluid rounded py-3 secheader	">
-			<h1 class="text-right"><strong>P</strong>ortfolio</h1>
 		</div>
+<!--		Div containing the portfolio section-->
+	<div class="portfoliocontainer1">
+<!--			<div class="container-fluid rounded py-3 secheader	">-->
+<!--				<h1 class="text-right"><strong>P</strong>ortfolio</h1>-->
+<!--			</div>-->
 
 		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators">
@@ -172,54 +174,54 @@
 			</a>
 		</div>
 
-		<div class=" rounded p-0 d-flex flex-wrap col-sm col-lg-8 mx-auto align-items-center portfoliocontainer">
-			<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-thumbnail portfoliocontainer "/></a>
-			<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-thumbnail portfoliocontainer my-3 "/></a>
-			<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-thumbnail portfoliocontainer "/></a>
+				<div class=" rounded p-0 d-flex flex-wrap col-sm col-lg-8 mx-auto align-items-center portfoliocontainer">
+					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-thumbnail portfoliocontainer "/></a>
+					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-thumbnail portfoliocontainer my-3 "/></a>
+					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-thumbnail portfoliocontainer "/></a>
 
-		</div>
+				</div>
 	</div>
 
 
 
 
-	<!--		Div containg header for Contact Section-->
+<!--		Div containg header for Contact Section-->
 	<div class="contacts">
 		<div class="container-fluid rounded  mb-4 py-3 secheader">
-			<h1 class="text-right"><strong>C</strong>ontact</h1>
+				<h1 class="text-right"><strong>C</strong>ontact</h1>
 		</div>
-		<!--		Div containg contact section content-->
+<!--		Div containg contact section content-->
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6 col-lg-8">
 					<h2 class="text-center"><strong>W</strong>ho <strong>A</strong>re <strong>Y</strong>ou?</h2>
-					<!---------CONTACT FORM START----------------->
-					<form id="contactform" action="php/mailer.php" method="post" novalidate>
-						<div class="form-group">
-							<label for="nameinput"><strong>*Your Name</strong></label>
-							<input type="text" class="form-control" id="nameinput" name="nameinput" aria-describedby="emailHelp" placeholder="Enter your name">
-						</div>
-						<div class="form-group">
-							<label for="emailinput"><strong>*Email Address</strong></label>
-							<input type="email" class="form-control" id="emailinput" name="emailinput" placeholder="Enter your email">
-						</div>
-						<div class="form-group">
-							<label for="phoneinput"><strong>Phone Number</strong></label>
-							<input type="text" class="form-control" id="phoneinput" name="phoneinput" placeholder="(505)-555-5555">
-						</div>
-						<div class="form-group">
-							<label for="subjectinput"><strong>*Subject</strong></label>
-							<input type="text" class="form-control" id="subjectinput" name="subjectinput" placeholder="Subject">
-						</div>
-						<div class="form-group">
-							<label for="servicesinput"><strong>*Services You Are Interested In</strong></label>
-							<textarea class="form-control" id="servicesinput" name="servicesinput" rows="3"></textarea>
-						</div>
-						<!--------GOOGLE RECAPTCHA----------->
-						<div class="g-recaptcha" data-sitekey="6LeZljoUAAAAAMTm6tbn-MrVytzhzsEW1JnNHW0z"></div>
-						<button type="submit" class="btn btn-primary">Bring it to Life</button>
+				<!---------CONTACT FORM START----------------->
+			<form id="contactform" action="php/mailer.php" method="post" novalidate>
+				<div class="form-group">
+					<label for="nameinput"><strong>*Your Name</strong></label>
+					<input type="text" class="form-control" id="nameinput" name="nameinput" aria-describedby="emailHelp" placeholder="Enter your name">
+				</div>
+				<div class="form-group">
+					<label for="emailinput"><strong>*Email Address</strong></label>
+					<input type="email" class="form-control" id="emailinput" name="emailinput" placeholder="Enter your email">
+				</div>
+				<div class="form-group">
+					<label for="phoneinput"><strong>Phone Number</strong></label>
+					<input type="text" class="form-control" id="phoneinput" name="phoneinput" placeholder="(505)-555-5555">
+				</div>
+				<div class="form-group">
+					<label for="subjectinput"><strong>*Subject</strong></label>
+					<input type="text" class="form-control" id="subjectinput" name="subjectinput" placeholder="Subject">
+				</div>
+				<div class="form-group">
+					<label for="servicesinput"><strong>*Services You Are Interested In</strong></label>
+					<textarea class="form-control" id="servicesinput" name="servicesinput" rows="3"></textarea>
+				</div>
+				<!--------GOOGLE RECAPTCHA----------->
+				<div class="g-recaptcha" data-sitekey="6LeZljoUAAAAAMTm6tbn-MrVytzhzsEW1JnNHW0z"></div>
+				<button type="submit" class="btn btn-primary">Bring it to Life</button>
 
-					</form>
+			</form>
 					<!---------EMPTY OUTPUT AREA FOR FORM ERROR/SUCCESS OUTPUT------>
 					<div class="row">
 						<div class="col">
@@ -227,21 +229,21 @@
 						</div>
 					</div>
 				</div>
-				<!--				Col containing about me section-->
+<!--				Col containing about me section-->
 				<div class="col-sm-6 col-lg-4 d-flex flex-column flex-wrap border border-top-0 border-bottom-0 border-right-0">
 					<h2 class="text-center"><strong>W</strong>ho <strong>A</strong>m <strong>I</strong>?</h2>
 					<p>Quis meatball ut t-bone, ball tip andouille nulla consequat minim aliquip cillum sed velit qui. Adipisicing reprehenderit excepteur non salami. Et t-bone shankle eu kevin pork aliqua aliquip. Corned beef do veniam aliqua enim prosciutto sausage id ut consequat ut buffalo.</p>
 					<p class="my-0"><small><strong>Call</strong></small></p>
 					<p class="my-0">505<strong>-</strong>555<strong>-</strong>5555</p>
 					<div class="d-flex flex-row justify-content-between">
-						<img src="http://fillmurray.com/g/200/300" class="rounded-circle" alt="Cinque Terre" />
+					<img src="http://fillmurray.com/g/200/300" class="rounded-circle" alt="Cinque Terre" />
 						<div class="d-flex flex-column">
-							<p class="text-right my-0"><small><strong>Email</strong></small></p>
-							<p class="text-right my-0" >Npascetti<strong>@</strong></p>
-							<p class="text-right my-0"><small>Npascetti<strong>.</strong>com</small></p>
-							<a href="https://github.com/npascetti"><img src="../images/GitHub-Mark-64px.png" alt="githubmark" class="p-2"></a>
-							<a href="https://github.com/npascetti"><img src="../images/linkedin.png" alt="githubmark" class="p-2"></a>
-							<a href="https://github.com/npascetti"><img src="../images/GitHub-Mark-64px.png" alt="githubmark" class="p-2"></a>
+					<p class="text-right my-0"><small><strong>Email</strong></small></p>
+					<p class="text-right my-0" >Npascetti<strong>@</strong></p>
+					<p class="text-right my-0"><small>Npascetti<strong>.</strong>com</small></p>
+								<a href="https://github.com/npascetti"><img src="../images/GitHub-Mark-64px.png" alt="githubmark" class="p-2"></a>
+								<a href="https://github.com/npascetti"><img src="../images/linkedin.png" alt="githubmark" class="p-2"></a>
+								<a href="https://github.com/npascetti"><img src="../images/GitHub-Mark-64px.png" alt="githubmark" class="p-2"></a>
 						</div>
 					</div>
 
@@ -249,15 +251,15 @@
 			</div>
 		</div>
 	</div>
-	<!--		Div containing footer of whole page-->
-	<footer class="page-footer container-fluid rounded" id="bgimage1">
-		<div class="container">
-			<div class="footer-copyright">
-				<div class="container-fluid d-flex justify-content-end">
-					<p>© 2017 Copyright: <a href="https://www.nickpascetti.com"> pascettiCode </a></p>
+<!--		Div containing footer of whole page-->
+		<footer class="page-footer container-fluid rounded" id="bgimage1">
+			<div class="container">
+				<div class="footer-copyright">
+					<div class="container-fluid d-flex justify-content-end">
+						<p>© 2017 Copyright: <a href="https://www.nickpascetti.com"> pascettiCode </a></p>
+					</div>
 				</div>
 			</div>
-		</div>
-	</footer>
+		</footer>
 	</body>
 </html>
