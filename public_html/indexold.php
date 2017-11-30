@@ -218,7 +218,7 @@
 					<textarea class="form-control" id="servicesinput" name="servicesinput" rows="3"></textarea>
 				</div>
 				<!--------GOOGLE RECAPTCHA----------->
-				<div class="g-recaptcha" data-sitekey="6LeZljoUAAAAAMTm6tbn-MrVytzhzsEW1JnNHW0z"></div>
+				<div class="g-recaptcha" data-sitekey="6LeZljoUAAAAAMTm6tbn-MrVytzhzsEW1JnNHW0z" style="transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0;"></div>
 				<button type="submit" class="btn btn-primary">Bring it to Life</button>
 
 			</form>

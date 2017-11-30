@@ -96,12 +96,12 @@ $(document).ready(function(){
 
 	});/* end validate function here */
 
-	if ($(document).width() < 750) {
-		$('.g-recaptcha').attr('data-size', 'compact');
-	}
-	else {
-		$('.g-recaptcha').attr('data-size', 'normal');
-	}
+	// if ($(document).width() < 750) {
+	// 	$('.g-recaptcha').attr('data-size', 'compact');
+	// }
+	// else {
+	// 	$('.g-recaptcha').attr('data-size', 'normal');
+	// }
 
 
 });/*end document.ready()*/
