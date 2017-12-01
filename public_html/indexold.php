@@ -31,10 +31,10 @@
 <!--		Div containing landing area, nav, and background image-->
 <body>	<div class="container-fluid">
 			<nav class="navbar row">
-				<a class="nav-link mr-auto col-xs-4 col-3 " href="#">Home</a>
+				<a class="nav-link mr-auto col-xs-4 col-3 " href="#">pascettiCode</a>
 				<ul class="navbar-nav ml-auto col-xs-2">
 					<li class="nav-item">
-						<a class="nav-link" href="#">Services</a>
+						<a class="nav-link" href="#services">Services</a>
 					</li>
 <!--					<li class="nav-item">-->
 <!--						<a class="nav-link" href="#">Portfolio</a>-->
@@ -45,12 +45,12 @@
 				</ul>
 				<ul class="navbar-nav ml-auto col-xs-2">
 					<li class="nav-item">
-						<a class="nav-link" href="#">Portfolio</a>
+						<a class="nav-link" href="#carouselExampleIndicators">Portfolio</a>
 					</li>
 				</ul>
 				<ul class="navbar-nav ml-auto col-xs-2">
 					<li class="nav-item">
-						<a class="nav-link" href="#">Contact</a>
+						<a class="nav-link" href="#contacts">Contact</a>
 					</li>
 				</ul>
 			</nav>
@@ -70,7 +70,7 @@
 			</div>
 			</div>
 <!--		Div for services section-->
-	<div class="services">
+	<div class="services" id="services">
 		<div class="container-fluid rounded py-3 secheader">
 				<h1 class="text-right"><strong>S</strong>ervices</h1>
 		</div>
@@ -91,7 +91,7 @@
 							<figcaption class="text-center text-dark">
 								User interface and experience are the most vital components of your site for your end users and customers. I believe in never compromising usability at the expense of aesthetic design. Less is more.
 							</figcaption>
-							<img src="http://fillmurray.com/50/50" class="figure-img img-fluid rounded" alt="placeholderimg." />
+							<img src="../images/UIUX.png" class="figure-img img-fluid rounded" alt="placeholderimg." />
 						</figure>
 					</div>
 				</div>
@@ -187,7 +187,7 @@
 
 
 <!--		Div containg header for Contact Section-->
-	<div class="contacts">
+	<div class="contacts" id="contacts">
 		<div class="container-fluid rounded  mb-4 py-3 secheader">
 				<h1 class="text-right"><strong>C</strong>ontact</h1>
 		</div>
@@ -233,7 +233,7 @@
 <!--				Col containing about me section-->
 				<div class="col-sm-6 col-lg-4 d-flex flex-column flex-wrap border border-top-0 border-bottom-0 border-right-0">
 					<h2 class="text-center"><strong>W</strong>ho <strong>A</strong>m <strong>I</strong>?</h2>
-					<p>Hello! My name is Nick Pascetti, and I'm a full-stack web developer. I would love to help you with your development needs. I believe in clean and clear design solutions, emphasizing usability and functionality. Contact me for a friendly, smiling face to work with you on designing your site.</p>
+					<p><strong>Hello! My name is Nick Pascetti, and I'm a full-stack web developer. I would love to help you with your development needs. I believe in clean and clear design solutions, emphasizing usability and functionality. Contact me for a friendly, smiling face to work with you on designing your site.</strong></p>
 					<p class="my-0"><small><strong>Call</strong></small></p>
 					<p class="my-0">505<strong>-</strong>288<strong>-</strong>1009</p>
 					<div class="d-flex flex-row justify-content-between">
@@ -242,9 +242,9 @@
 					<p class="text-right my-0"><small><strong>Email</strong></small></p>
 					<p class="text-right my-0" >Nick<strong>@</strong></p>
 					<p class="text-right my-0"><small>Nickpascetti<strong>.</strong>com</small></p>
-								<a href="https://github.com/npascetti"><img src="../images/GitHub-Mark-64px.png" alt="githubmark" class="p-2"></a>
-								<a href="https://github.com/npascetti"><img src="../images/linkedin.png" alt="githubmark" class="p-2"></a>
-								<a href="https://github.com/npascetti"><img src="../images/GitHub-Mark-64px.png" alt="githubmark" class="p-2"></a>
+								<a href="https://github.com/npascetti" class="text-right"><img src="../images/GitHub-Mark-64px.png" alt="githubmark" class="p-2"></a>
+								<a href="https://www.linkedin.com/in/nickpascetti/" class="text-right"><img src="../images/linkedin.png" alt="githubmark" class="p-2"></a>
+<!--								<a href="https://github.com/npascetti"><img src="../images/GitHub-Mark-64px.png" alt="githubmark" class="p-2"></a>-->
 						</div>
 					</div>
 
@@ -264,3 +264,7 @@
 		</footer>
 	</body>
 </html>
+
+<div class="container-fluid">
+	<h2></h2>
+</div>
