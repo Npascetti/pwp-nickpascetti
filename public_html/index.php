@@ -31,7 +31,7 @@
 <!--		Div containing landing area, nav, and background image-->
 <body>	<div class="container-fluid">
 			<nav class="navbar row">
-				<a class="nav-link mr-auto col-xs-4 col-3 " href="#">pascettiCode</a>
+				<a class="nav-link mr-auto col-xs-4 col-3 " href="#">p<strong>C</strong></a>
 				<ul class="navbar-nav ml-auto col-xs-2">
 					<li class="nav-item">
 						<a class="nav-link" href="#services">Services</a>
@@ -45,7 +45,7 @@
 				</ul>
 				<ul class="navbar-nav ml-auto col-xs-2">
 					<li class="nav-item">
-						<a class="nav-link" href="#carouselExampleIndicators">Portfolio</a>
+						<a class="nav-link" href="#experience">Experience</a>
 					</li>
 				</ul>
 				<ul class="navbar-nav ml-auto col-xs-2">
@@ -132,7 +132,16 @@
 <!--		</div>-->
 <!--		div containing footer for services section-->
 
+		<div class="container-fluid rounded techheader" id="experience">
+			<h2 class="text-center">Technologies & Experience</h2>
 
+			<p class="text-center">Just some of the technologies that I have experience working with.</p>
+			<h5 class="text-center">HTML</h5>
+			<h5 class="text-center">CSS</h5>
+			<h5 class="text-center">MySQL</h5>
+			<h5 class="text-center">JavaScript</h5>
+			<h5 class="text-center mb-0 pb-3">Angular</h5>
+		</div>
 
 <!--		<div class="container-fluid rounded secheader">-->
 <!--			<h3 class="ml-3"><strong>A</strong>lways <strong>M</strong>obile <strong>F</strong>irst</h3>-->
@@ -143,7 +152,7 @@
 <!---->
 <!--		</div>-->
 <!--		Div containing the portfolio section-->
-	<div class="portfoliocontainer1">
+<!--	<div class="portfoliocontainer1">-->
 <!--			<div class="container-fluid rounded py-3 secheader	">-->
 <!--				<h1 class="text-right"><strong>P</strong>ortfolio</h1>-->
 <!--			</div>-->
@@ -182,26 +191,17 @@
 <!---->
 <!--				</div>-->
 
-		<div class="container-fluid rounded techheader">
-		<h2 class="text-center">Technologies & Experience</h2>
 
-		<p class="text-center">Just some of the technologies that I have experience working with.</p>
-		<h5 class="text-center">HTML</h5>
-		<h5 class="text-center">CSS</h5>
-		<h5 class="text-center">MySQL</h5>
-		<h5 class="text-center">JavaScript</h5>
-		<h5 class="text-center mb-0 pb-3">Angular</h5>
-		</div>
-	</div>
-	<div class="dividerbgsmall">
-
-	</div>
+<!--	</div>-->
+<!--	<div class="dividerbgsmall">-->
+<!---->
+<!--	</div>-->
 
 
 
 
 <!--		Div containg header for Contact Section-->
-	<div class="contacts" id="contacts">
+	<div class="contacts pt-5" id="contacts">
 		<div class="container-fluid rounded  mb-4 py-3 secheader">
 				<h1 class="text-right"><strong>C</strong>ontact</h1>
 		</div>
