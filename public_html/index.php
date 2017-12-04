@@ -148,32 +148,32 @@
 <!--				<h1 class="text-right"><strong>P</strong>ortfolio</h1>-->
 <!--			</div>-->
 
-		<div id="carouselExampleIndicators" class="carousel slide pb-5" data-ride="carousel">
-			<ol class="carousel-indicators">
-				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-			</ol>
-			<div class="carousel-inner " role="listbox">
-				<div class="carousel-item active">
-					<img class="d-block img-fluid" src="http://fillmurray.com/500/500" alt="First slide">
-				</div>
-				<div class="carousel-item">
-					<img class="d-block img-fluid" src="http://fillmurray.com/500/500" alt="Second slide">
-				</div>
-				<div class="carousel-item">
-					<img class="d-block img-fluid" src="http://fillmurray.com/500/500" alt="Third slide">
-				</div>
-			</div>
-			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="sr-only">Previous</span>
-			</a>
-			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="sr-only">Next</span>
-			</a>
-		</div>
+<!--		<div id="carouselExampleIndicators" class="carousel slide pb-5" data-ride="carousel">-->
+<!--			<ol class="carousel-indicators">-->
+<!--				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>-->
+<!--				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>-->
+<!--				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>-->
+<!--			</ol>-->
+<!--			<div class="carousel-inner " role="listbox">-->
+<!--				<div class="carousel-item active">-->
+<!--					<img class="d-block img-fluid" src="http://fillmurray.com/500/500" alt="First slide">-->
+<!--				</div>-->
+<!--				<div class="carousel-item">-->
+<!--					<img class="d-block img-fluid" src="http://fillmurray.com/500/500" alt="Second slide">-->
+<!--				</div>-->
+<!--				<div class="carousel-item">-->
+<!--					<img class="d-block img-fluid" src="http://fillmurray.com/500/500" alt="Third slide">-->
+<!--				</div>-->
+<!--			</div>-->
+<!--			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">-->
+<!--				<span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
+<!--				<span class="sr-only">Previous</span>-->
+<!--			</a>-->
+<!--			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">-->
+<!--				<span class="carousel-control-next-icon" aria-hidden="true"></span>-->
+<!--				<span class="sr-only">Next</span>-->
+<!--			</a>-->
+<!--		</div>-->
 		<!------------mobile image thumbs------------->
 <!--				<div class=" rounded p-0 d-flex flex-wrap col-sm col-lg-8 mx-auto align-items-center portfoliocontainer">-->
 <!--					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-thumbnail portfoliocontainer "/></a>-->
@@ -181,6 +181,20 @@
 <!--					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-thumbnail portfoliocontainer "/></a>-->
 <!---->
 <!--				</div>-->
+
+		<div class="container-fluid rounded techheader">
+		<h2 class="text-center">Technologies & Experience</h2>
+
+		<p class="text-center">Just some of the technologies that I have experience working with.</p>
+		<h5 class="text-center">HTML</h5>
+		<h5 class="text-center">CSS</h5>
+		<h5 class="text-center">MySQL</h5>
+		<h5 class="text-center">JavaScript</h5>
+		<h5 class="text-center mb-0 pb-3">Angular</h5>
+		</div>
+	</div>
+	<div class="dividerbgsmall">
+
 	</div>
 
 
