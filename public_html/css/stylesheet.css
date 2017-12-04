@@ -91,24 +91,24 @@ figure {
 	height: 3rem;
 }
 
-@media screen and (max-width: 425px) and (orientation: portrait) {
-	#carouselExampleIndicators {
-		display: none;
-	}
-	.carousel-item, .carousel-control-next, .carousel-control-prev, .carousel-control-next-icon, .carousel-control-prev-icon {
-		display: none;
-	}
-}
+/*@media screen and (max-width: 425px) and (orientation: portrait) {*/
+	/*#carouselExampleIndicators {*/
+		/*display: none;*/
+	/*}*/
+	/*.carousel-item, .carousel-control-next, .carousel-control-prev, .carousel-control-next-icon, .carousel-control-prev-icon {*/
+		/*display: none;*/
+	/*}*/
+/*}*/
 
-.portfoliocontainer {
-	display: none;
-}
+/*.portfoliocontainer {*/
+	/*display: none;*/
+/*}*/
 
-@media screen and (max-width: 425px) and (orientation: portrait) {
-	.portfoliocontainer {
-		display: unset;
-	}
-}
+/*@media screen and (max-width: 425px) and (orientation: portrait) {*/
+	/*.portfoliocontainer {*/
+		/*display: unset;*/
+	/*}*/
+/*}*/
 
 .navbar {
 	background-color: #EC8D0C;
