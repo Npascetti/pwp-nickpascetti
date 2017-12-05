@@ -75,13 +75,13 @@ body {
 }
 
 figure {
-	background-color: rgba(244,240,224, 0.95);
+	background-color: rgba(244,240,224, 0.4);
 }
 
 .secheader {
-	background-color: rgba(244,240,224, 0.95);
-	border: solid;
-	border-color: #EC8D0C;
+	/*background-color: rgba(244,240,224, 0.4);*/
+	/*border: solid;*/
+	/*border-color: #EC8D0C;*/
 }
 
 .carousel-item > img {
@@ -134,7 +134,7 @@ footer {
 }
 
 .techheader {
-	background-color: rgba(244,240,224, 0.95);
+	background-color: rgba(244,240,224, 0.4);
 }
 
 @media only screen and (max-width: 386px) and (orientation: portrait) {

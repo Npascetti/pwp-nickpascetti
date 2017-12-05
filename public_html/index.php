@@ -72,7 +72,7 @@
 <!--		Div for services section-->
 	<div class="services" id="services">
 		<div class="container-fluid rounded py-3 secheader">
-				<h1 class="text-right"><strong>S</strong>ervices</h1>
+				<h1 class="text-center"><strong>S</strong>ervices</h1>
 		</div>
 <!--		Div containing services cards-->
 <!--		<div class="dividerbg">-->
@@ -87,7 +87,7 @@
 							<h5 class="font-weight-bold">Elegant and Functional</h5>
 							<h6 class="font-weight-bold">UI|UX</h6>
 						</div>
-						<figure class = " figure-caption border rounded">
+						<figure class = " figure-caption rounded">
 							<figcaption class="text-center text-dark">
 								User interface and experience are the most vital components of your site for your end users and customers. I believe in never compromising usability at the expense of aesthetic design. Less is more.
 							</figcaption>
@@ -102,7 +102,7 @@
 							<h5 class="font-weight-bold">Mobile Web App</h5>
 							<h6 class="font-weight-bold">Creation and Conversion</h6>
 						</div>
-						<figure class = " figure-caption border rounded ">
+						<figure class = " figure-caption rounded ">
 							<figcaption class="text-center text-dark">
 								Do you have a site or web app that you're looking to convert to a mobile app? I create and convert applications for use on iOS and Android devices using Ionic Framework.
 							</figcaption>
@@ -117,7 +117,7 @@
 							<h5 class="font-weight-bold">Custom WordPress</h5>
 							<h6 class="font-weight-bold">CMS Solutions</h6>
 						</div>
-						<figure class = " figure-caption border rounded">
+						<figure class = " figure-caption  rounded">
 							<figcaption class="text-center text-dark">
 								Do you want to manage your own site content, but just need help building it? I can help you create a customized WordPress site that can then be handed off to you to manage yourself.
 							</figcaption>
@@ -203,7 +203,7 @@
 <!--		Div containg header for Contact Section-->
 	<div class="contacts pt-5" id="contacts">
 		<div class="container-fluid rounded  mb-4 py-3 secheader">
-				<h1 class="text-right"><strong>C</strong>ontact</h1>
+				<h1 class="text-center"><strong>C</strong>ontact</h1>
 		</div>
 <!--		Div containg contact section content-->
 		<div class="container">
