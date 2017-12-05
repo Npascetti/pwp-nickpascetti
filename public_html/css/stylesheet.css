@@ -3,18 +3,18 @@ html, body {
 	width: 100%;
 	background-image: url("../../images/croppedwallbg.png");
 	background-attachment: fixed;
-	background-repeat: repeat;
+
 }
 
 #bgimage {
-	/*background-image: url("../../images/croppedwallbg.png");*/
+	background-image: url("../../images/croppedwallbg.png");
 	height: 90vh;
 	min-width: 100%;
 	background-attachment: fixed;
 }
 
 .services {
-	/*background-image: url("../../images/croppedwallbg.png");*/
+	background-image: url("../../images/croppedwallbg.png");
 	/*min-height: 80vh;*/
 	background-attachment: fixed;
 	}
@@ -49,7 +49,7 @@ body {
 }
 
 .portfoliocontainer1 {
-	/*background-image: url("../../images/croppedwallbg.png");*/
+	background-image: url("../../images/croppedwallbg.png");
 	background-attachment: fixed;
 	height: auto;
 }
@@ -59,7 +59,7 @@ body {
 }
 
 .contacts {
-	/*background-image: url("../../images/croppedwallbg.png");*/
+	background-image: url("../../images/croppedwallbg.png");
 	background-attachment: fixed;
 }
 
@@ -137,13 +137,26 @@ footer {
 	background-color: rgba(244,240,224, 0.95);
 }
 
-@media only screen and (max-width: 386px) {
+@media only screen and (max-width: 386px) and (orientation: portrait) {
 	.contactcol {
 		display: none;
 	}
 }
 
-@media only screen and (min-width: 386px) {
+@media only screen and (max-width: 712px) and (orientation: landscape) {
+	.contactcol {
+		display: none;
+	}
+}
+
+
+@media only screen and (min-width: 386px) and (orientation: portrait) {
+	.contactsmall {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 712px) and (orientation: landscape) {
 	.contactsmall {
 		display: none;
 	}
