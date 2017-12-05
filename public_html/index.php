@@ -277,11 +277,11 @@
 		</div>
 	</div>
 <!--		Div containing footer of whole page-->
-		<footer class="page-footer container-fluid rounded" id="bgimage1">
+		<footer class="page-footer container-fluid rounded py-3" id="bgimage1">
 			<div class="container">
 				<div class="footer-copyright">
-					<div class="container-fluid d-flex justify-content-end">
-						<p>© 2017 Copyright: <a href="https://www.nickpascetti.com"> pascettiCode </a></p>
+					<div class="d-flex justify-content-center align-items-center">
+						<p class="m-0">© 2017 Copyright: <a href="https://www.nickpascetti.com">pascettiCode </a></p>
 					</div>
 				</div>
 			</div>
