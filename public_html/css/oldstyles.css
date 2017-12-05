@@ -17,9 +17,27 @@ html, body {
 	background-image: url("../../images/croppedwallbg.png");
 	/*min-height: 80vh;*/
 	background-attachment: fixed;
-	}
+}
+
+/*.services1 {*/
+/*height:90vh;*/
+/*}*/
+
+/*body > div.services > div.container-fluid.d-flex {*/
+/*height: 90vh;*/
+/*}*/
 
 
+
+/*#bgimage1 {*/
+/*background-image: url("../../images/croppedwallbg.png");*/
+/*height: 15vh;*/
+/*}*/
+
+body {
+	/*background-image: url("../../images/croppedwallbg.png");*/
+	/*background: hsla(46, 29%, 53%, .6) !important;*/
+}
 
 body {
 	font-family: 'Raleway', sans-serif !important;
@@ -27,6 +45,7 @@ body {
 
 .portfoliocontainer {
 	justify-content: center;
+	/*opacity: 0.5;*/
 }
 
 .portfoliocontainer1 {
@@ -35,10 +54,24 @@ body {
 	height: auto;
 }
 
+.portfolioheader {
+	/*opacity: 0.5;*/
+}
 
 .contacts {
 	background-image: url("../../images/croppedwallbg.png");
 	background-attachment: fixed;
+}
+
+.dividerbg {
+	/*background-image: url("../../images/croppedwallbg.png");*/
+	background-attachment: fixed;
+	height: 13vh;
+}
+.dividerbgsmall {
+	/*background-image: url("../../images/croppedwallbg.png");*/
+	background-attachment: fixed;
+	height: 3rem;
 }
 
 figure {
@@ -56,6 +89,30 @@ figure {
 	width: 40%;
 	max-height: 80vh;
 }
+.dividerbgsmall1 {
+	/*background-image: url("../../images/croppedwallbg.png");*/
+	background-attachment: fixed;
+	height: 3rem;
+}
+
+/*@media screen and (max-width: 425px) and (orientation: portrait) {*/
+/*#carouselExampleIndicators {*/
+/*display: none;*/
+/*}*/
+/*.carousel-item, .carousel-control-next, .carousel-control-prev, .carousel-control-next-icon, .carousel-control-prev-icon {*/
+/*display: none;*/
+/*}*/
+/*}*/
+
+/*.portfoliocontainer {*/
+/*display: none;*/
+/*}*/
+
+/*@media screen and (max-width: 425px) and (orientation: portrait) {*/
+/*.portfoliocontainer {*/
+/*display: unset;*/
+/*}*/
+/*}*/
 
 .navbar {
 	background-color: #EC8D0C;

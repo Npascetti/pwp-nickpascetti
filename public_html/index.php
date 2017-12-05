@@ -36,12 +36,7 @@
 					<li class="nav-item">
 						<a class="nav-link" href="#services">Services</a>
 					</li>
-<!--					<li class="nav-item">-->
-<!--						<a class="nav-link" href="#">Portfolio</a>-->
-<!--					</li>-->
-<!--					<li class="nav-item">-->
-<!--						<a class="nav-link" href="#">Services</a>-->
-<!--					</li>-->
+
 				</ul>
 				<ul class="navbar-nav ml-auto col-xs-2">
 					<li class="nav-item">
@@ -57,16 +52,12 @@
 	</div>
 	<div class="container-fluid d-flex align-items-center justify-content-center" id="bgimage">
 			<div class="d-flex align-items-center justify-content-center" id="splash">
-<!--			<div class="text-left justify-content-start my-5 ml-5 c-header">-->
-<!--				<h2 class="c-header"><strong>C</strong>reative <strong>I</strong>nsight</h2>-->
-<!--			</div>-->
+
 			<div class="text-center justify-content-center my-5">
 				<h1><strong>p</strong>ascetti<strong>C</strong>ode</h1>
 				<h2>Full-Stack Web Development</h2>
 			</div>
-<!--			<div class="text-right justify-content-end my-5 mr-5">-->
-<!--				<h2><strong>I</strong>ntuitive <strong>D</strong>esign</h2>-->
-<!--			</div>-->
+
 			</div>
 			</div>
 <!--		Div for services section-->
@@ -75,9 +66,7 @@
 				<h1 class="text-center"><strong>S</strong>ervices</h1>
 		</div>
 <!--		Div containing services cards-->
-<!--		<div class="dividerbg">-->
-<!---->
-<!--		</div>-->
+
 		<div class="container-fluid d-flex">
 			<div class="row d-flex justify-content-between align-items-center">
 
@@ -127,10 +116,6 @@
 		</div>
 			</div>
 		</div>
-<!--		<div class="dividerbg">-->
-<!---->
-<!--		</div>-->
-<!--		div containing footer for services section-->
 
 		<div class="container-fluid rounded techheader" id="experience">
 			<h2 class="text-center">Technologies & Experience</h2>
@@ -142,62 +127,6 @@
 			<h5 class="text-center">JavaScript</h5>
 			<h5 class="text-center mb-0 pb-3">Angular</h5>
 		</div>
-
-<!--		<div class="container-fluid rounded secheader">-->
-<!--			<h3 class="ml-3"><strong>A</strong>lways <strong>M</strong>obile <strong>F</strong>irst</h3>-->
-<!--			<h3 class="text-right mr-3 mb-0"><strong>A</strong>lways <strong>R</strong>esponsive <strong>D</strong>esign</h3>-->
-<!--		</div>-->
-	</div>
-<!--		<div class="dividerbgsmall">-->
-<!---->
-<!--		</div>-->
-<!--		Div containing the portfolio section-->
-<!--	<div class="portfoliocontainer1">-->
-<!--			<div class="container-fluid rounded py-3 secheader	">-->
-<!--				<h1 class="text-right"><strong>P</strong>ortfolio</h1>-->
-<!--			</div>-->
-
-<!--		<div id="carouselExampleIndicators" class="carousel slide pb-5" data-ride="carousel">-->
-<!--			<ol class="carousel-indicators">-->
-<!--				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>-->
-<!--				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>-->
-<!--				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>-->
-<!--			</ol>-->
-<!--			<div class="carousel-inner " role="listbox">-->
-<!--				<div class="carousel-item active">-->
-<!--					<img class="d-block img-fluid" src="http://fillmurray.com/500/500" alt="First slide">-->
-<!--				</div>-->
-<!--				<div class="carousel-item">-->
-<!--					<img class="d-block img-fluid" src="http://fillmurray.com/500/500" alt="Second slide">-->
-<!--				</div>-->
-<!--				<div class="carousel-item">-->
-<!--					<img class="d-block img-fluid" src="http://fillmurray.com/500/500" alt="Third slide">-->
-<!--				</div>-->
-<!--			</div>-->
-<!--			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">-->
-<!--				<span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
-<!--				<span class="sr-only">Previous</span>-->
-<!--			</a>-->
-<!--			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">-->
-<!--				<span class="carousel-control-next-icon" aria-hidden="true"></span>-->
-<!--				<span class="sr-only">Next</span>-->
-<!--			</a>-->
-<!--		</div>-->
-		<!------------mobile image thumbs------------->
-<!--				<div class=" rounded p-0 d-flex flex-wrap col-sm col-lg-8 mx-auto align-items-center portfoliocontainer">-->
-<!--					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-thumbnail portfoliocontainer "/></a>-->
-<!--					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-thumbnail portfoliocontainer my-3 "/></a>-->
-<!--					<a href="#"><img src="http://fillmurray.com/200/450" alt="" class="img-thumbnail portfoliocontainer "/></a>-->
-<!---->
-<!--				</div>-->
-
-
-<!--	</div>-->
-<!--	<div class="dividerbgsmall">-->
-<!---->
-<!--	</div>-->
-
-
 
 
 <!--		Div containg header for Contact Section-->
@@ -220,10 +149,7 @@
 					<label for="emailinput"><strong>*Email Address</strong></label>
 					<input type="email" class="form-control" id="emailinput" name="emailinput" placeholder="Enter your email">
 				</div>
-<!--				<div class="form-group">-->
-<!--					<label for="phoneinput"><strong>Phone Number</strong></label>-->
-<!--					<input type="text" class="form-control" id="phoneinput" name="phoneinput" placeholder="(505)-555-5555">-->
-<!--				</div>-->
+
 				<div class="form-group">
 					<label for="subjectinput"><strong>*Subject</strong></label>
 					<input type="text" class="form-control" id="subjectinput" name="subjectinput" placeholder="Subject">
