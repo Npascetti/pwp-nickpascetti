@@ -281,7 +281,7 @@
 			<div class="container">
 				<div class="footer-copyright">
 					<div class="d-flex justify-content-center align-items-center">
-						<p class="m-0">© 2017 Copyright: <a href="https://www.nickpascetti.com">pascettiCode </a></p>
+						<p class="m-0">© 2017 Copyright: <a href="https://www.nickpascetti.com" id="footerlink">pascettiCode </a></p>
 					</div>
 				</div>
 			</div>

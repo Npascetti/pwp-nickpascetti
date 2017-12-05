@@ -162,5 +162,10 @@ footer {
 	}
 }
 
+#footerlink {
+	color: #5C280E !important;
+	text-decoration: underline;
+}
+
 
 
