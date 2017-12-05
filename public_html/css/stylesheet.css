@@ -1,16 +1,20 @@
 html, body {
 	height: 100%;
+	width: 100%;
+	background-image: url("../../images/croppedwallbg.png");
+	background-attachment: fixed;
+	background-repeat: repeat;
 }
 
 #bgimage {
-	background-image: url("../../images/croppedwallbg.png");
+	/*background-image: url("../../images/croppedwallbg.png");*/
 	height: 90vh;
 	min-width: 100%;
 	background-attachment: fixed;
 }
 
 .services {
-	background-image: url("../../images/croppedwallbg.png");
+	/*background-image: url("../../images/croppedwallbg.png");*/
 	/*min-height: 80vh;*/
 	background-attachment: fixed;
 	}
@@ -45,7 +49,7 @@ body {
 }
 
 .portfoliocontainer1 {
-	background-image: url("../../images/croppedwallbg.png");
+	/*background-image: url("../../images/croppedwallbg.png");*/
 	background-attachment: fixed;
 	height: auto;
 }
@@ -55,17 +59,17 @@ body {
 }
 
 .contacts {
-	background-image: url("../../images/croppedwallbg.png");
+	/*background-image: url("../../images/croppedwallbg.png");*/
 	background-attachment: fixed;
 }
 
 .dividerbg {
-	background-image: url("../../images/croppedwallbg.png");
+	/*background-image: url("../../images/croppedwallbg.png");*/
 	background-attachment: fixed;
 	height: 13vh;
 }
 .dividerbgsmall {
-	background-image: url("../../images/croppedwallbg.png");
+	/*background-image: url("../../images/croppedwallbg.png");*/
 	background-attachment: fixed;
 	height: 3rem;
 }
@@ -86,7 +90,7 @@ figure {
 	max-height: 80vh;
 }
 .dividerbgsmall1 {
-	background-image: url("../../images/croppedwallbg.png");
+	/*background-image: url("../../images/croppedwallbg.png");*/
 	background-attachment: fixed;
 	height: 3rem;
 }
@@ -131,6 +135,18 @@ footer {
 
 .techheader {
 	background-color: rgba(244,240,224, 0.95);
+}
+
+@media only screen and (max-width: 386px) {
+	.contactcol {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 386px) {
+	.contactsmall {
+		display: none;
+	}
 }
 
 
