@@ -178,7 +178,7 @@
 <!--				Col containing about me section-->
 				<div class="col-sm-6 col-lg-4 d-flex flex-column flex-wrap border border-top-0 border-bottom-0 border-right-0">
 					<h2 class="text-center"><strong>W</strong>ho <strong>A</strong>m <strong>I</strong>?</h2>
-					<p><strong>Hello! My name is Nick Pascetti, and I'm a full-stack web developer. I would love to help you with your development needs. I believe in clean and clear design solutions, emphasizing usability and functionality. Contact me for a friendly, smiling face to work with you on designing your site.</strong></p>
+					<p class="text-center"><strong>Hello! My name is Nick Pascetti, and I'm a full-stack web developer. I would love to help you with your development needs. I believe in clean and clear design solutions, emphasizing usability and functionality. Contact me for a friendly, smiling face to work with you on designing your site.</strong></p>
 					<p class="my-0"><small><strong>Call</strong></small></p>
 					<p class="my-0">505<strong>-</strong>288<strong>-</strong>1009</p>
 					<div class="d-flex flex-row justify-content-between">
