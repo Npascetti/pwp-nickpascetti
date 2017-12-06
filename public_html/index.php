@@ -25,7 +25,7 @@
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.min.js"></script>
-		<title>Nick's PWP</title>
+		<title>pC</title>
 	</head>
 <!--		Div containing landing area, nav, and background image-->
 <body>	<div class="container-fluid">
@@ -50,6 +50,7 @@
 			</nav>
 	</div>
 	<div class="container-fluid d-flex align-items-center justify-content-center" id="bgimage">
+
 			<div class="d-flex align-items-center justify-content-center" id="splash">
 
 			<div class="text-center justify-content-center my-5">
@@ -60,7 +61,9 @@
 			</div>
 			</div>
 <!--		Div for services section-->
+
 	<div class="services" id="services">
+		<div class="bgtrans">
 		<div class="container-fluid rounded py-3 secheader">
 				<h1 class="text-center"><strong>S</strong>ervices</h1>
 		</div>
@@ -116,7 +119,7 @@
 			</div>
 		</div>
 
-		<div class="container-fluid rounded techheader" id="experience">
+		<div class="container-fluid rounded techheader pb-5" id="experience">
 			<h2 class="text-center">Technologies & Experience</h2>
 
 			<p class="text-center">Just some of the technologies that I have experience working with.</p>
@@ -126,11 +129,13 @@
 			<h5 class="text-center">JavaScript</h5>
 			<h5 class="text-center mb-0 pb-3">Angular</h5>
 		</div>
+		</div>
 	</div>
 
 
 <!--		Div containg header for Contact Section-->
-	<div class="contacts pt-5" id="contacts">
+	<div class="contacts" id="contacts">
+		<div class="bgtrans">
 		<div class="container-fluid rounded  mb-4 py-3 secheader">
 				<h1 class="text-center"><strong>C</strong>ontact</h1>
 		</div>
@@ -200,6 +205,7 @@
 					</div>
 				</div>
 			</div>
+		</div>
 		</div>
 	</div>
 <!--		Div containing footer of whole page-->

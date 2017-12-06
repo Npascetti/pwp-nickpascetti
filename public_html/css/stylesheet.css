@@ -1,23 +1,36 @@
 html, body {
 	height: 100%;
 	width: 100%;
-	background-image: url("../images/croppedwallbgsmall.jpg");
+	background-image: url("images/croppedwallbgsmalllowcontrast.jpg");
 	background-attachment: fixed;
+
 
 }
 
+
+.bgtrans {
+	background-color: rgba(244,240,224, 0.4);
+}
+
 #bgimage {
-	background-image: url("../images/croppedwallbgsmall.jpg");
+	background-image: url("../images/croppedwallbgsmalllowcontrast.jpg");
 	height: 90vh;
 	min-width: 100%;
 	background-attachment: fixed;
 }
 
 #services {
-	background-image: url("../images/croppedwallbgsmall.jpg");
+	background-image: url("../images/croppedwallbgsmalllowcontrast.jpg");
 	/*min-height: 80vh;*/
 	background-attachment: fixed;
+
 	}
+
+.contacts {
+	background-image: url("../images/croppedwallbgsmalllowcontrast.jpg");
+	background-attachment: fixed;
+
+}
 
 
 
@@ -30,20 +43,17 @@ body {
 }
 
 .portfoliocontainer1 {
-	background-image: url("../images/croppedwallbgsmall.jpg");
+	background-image: url("../images/croppedwallbgsmalllowcontrast.jpg");
 	background-attachment: fixed;
 	height: auto;
 }
 
 
-.contacts {
-	background-image: url("../images/croppedwallbgsmall.jpg");
-	background-attachment: fixed;
-}
 
-figure {
-	background-color: rgba(244,240,224, 0.4);
-}
+
+/*figure {*/
+	/*background-color: rgba(244,240,224, 0.4);*/
+/*}*/
 
 .secheader {
 	/*background-color: rgba(244,240,224, 0.4);*/
@@ -76,9 +86,9 @@ footer {
 	height: auto;
 }
 
-.techheader {
-	background-color: rgba(244,240,224, 0.4);
-}
+/*.techheader {*/
+	/*background-color: rgba(244,240,224, 0.4);*/
+/*}*/
 
 @media only screen and (max-width: 386px) and (orientation: portrait) {
 	.contactcol {
@@ -109,6 +119,8 @@ footer {
 	color: #5C280E !important;
 	text-decoration: underline;
 }
+
+
 
 
 
