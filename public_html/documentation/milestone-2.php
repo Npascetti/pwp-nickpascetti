@@ -20,11 +20,11 @@
 		<p>Section including contact form, email contact, links to Twitter, GitHub, LinkedIn, etc., as well as my headshot.</p>
 		<p>Let's talk. Contact form will contain a Your Name, Email Address, Phone Number, and What You Want section.</p>
 		<h1>Wireframes</h1>
-		<img src="../../images/welcome-services.png" alt="welcome page and services wireframe" />
-		<img src="../../images/portfliosec.png" alt="portfolio wireframe" />
-		<img src="../../images/contactform-footer.png" alt="contact form and footer wireframe" />
-		<img src="../../images/Welcome_and_Services.png" />
-		<img src="../../images/Portfolio_and_Who_Are_You.png" />
-		<img src="../../images/Page_3.png" />
+		<img src="../images/welcome-services.png" alt="welcome page and services wireframe" />
+		<img src="../images/portfliosec.png" alt="portfolio wireframe" />
+		<img src="../images/contactform-footer.png" alt="contact form and footer wireframe" />
+		<img src="../images/Welcome_and_Services.png" />
+		<img src="../images/Portfolio_and_Who_Are_You.png" />
+		<img src="../images/Page_3.png" />
 	</body>
 </html>

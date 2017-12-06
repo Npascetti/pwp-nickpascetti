@@ -239,9 +239,9 @@
 							<p class="text-right my-0"><small><strong>Email</strong></small></p>
 							<p class="text-right my-0" >Npascetti<strong>@</strong></p>
 							<p class="text-right my-0"><small>Npascetti<strong>.</strong>com</small></p>
-							<a href="https://github.com/npascetti"><img src="../images/GitHub-Mark-64px.png" alt="githubmark" class="p-2"></a>
-							<a href="https://github.com/npascetti"><img src="../images/linkedin.png" alt="githubmark" class="p-2"></a>
-							<a href="https://github.com/npascetti"><img src="../images/GitHub-Mark-64px.png" alt="githubmark" class="p-2"></a>
+							<a href="https://github.com/npascetti"><img src="images/GitHub-Mark-64px.png" alt="githubmark" class="p-2"></a>
+							<a href="https://github.com/npascetti"><img src="images/linkedin.png" alt="githubmark" class="p-2"></a>
+							<a href="https://github.com/npascetti"><img src="images/GitHub-Mark-64px.png" alt="githubmark" class="p-2"></a>
 						</div>
 					</div>
 

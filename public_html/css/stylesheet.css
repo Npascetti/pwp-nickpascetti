@@ -1,20 +1,20 @@
 html, body {
 	height: 100%;
 	width: 100%;
-	background-image: url("../../images/croppedwallbg.png");
+	background-image: url("../images/croppedwallbgsmall.jpg");
 	background-attachment: fixed;
 
 }
 
 #bgimage {
-	background-image: url("../../images/croppedwallbg.png");
+	background-image: url("../images/croppedwallbgsmall.jpg");
 	height: 90vh;
 	min-width: 100%;
 	background-attachment: fixed;
 }
 
-.services {
-	background-image: url("../../images/croppedwallbg.png");
+#services {
+	background-image: url("../images/croppedwallbgsmall.jpg");
 	/*min-height: 80vh;*/
 	background-attachment: fixed;
 	}
@@ -30,14 +30,14 @@ body {
 }
 
 .portfoliocontainer1 {
-	background-image: url("../../images/croppedwallbg.png");
+	background-image: url("../images/croppedwallbgsmall.jpg");
 	background-attachment: fixed;
 	height: auto;
 }
 
 
 .contacts {
-	background-image: url("../../images/croppedwallbg.png");
+	background-image: url("../images/croppedwallbgsmall.jpg");
 	background-attachment: fixed;
 }
 

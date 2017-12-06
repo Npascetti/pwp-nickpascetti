@@ -1,20 +1,20 @@
 html, body {
 	height: 100%;
 	width: 100%;
-	background-image: url("../../images/croppedwallbg.png");
+	background-image: url("../images/croppedwallbgsmall.jpg");
 	background-attachment: fixed;
 
 }
 
 #bgimage {
-	background-image: url("../../images/croppedwallbg.png");
+	background-image: url("../images/croppedwallbgsmall.jpg");
 	height: 90vh;
 	min-width: 100%;
 	background-attachment: fixed;
 }
 
 .services {
-	background-image: url("../../images/croppedwallbg.png");
+	background-image: url("../images/croppedwallbgsmall.jpg");
 	/*min-height: 80vh;*/
 	background-attachment: fixed;
 }
@@ -30,12 +30,12 @@ html, body {
 
 
 /*#bgimage1 {*/
-/*background-image: url("../../images/croppedwallbg.png");*/
+/*background-image: url("../../images/croppedwallbgsmall.jpg");*/
 /*height: 15vh;*/
 /*}*/
 
 body {
-	/*background-image: url("../../images/croppedwallbg.png");*/
+	/*background-image: url("../../images/croppedwallbgsmall.jpg");*/
 	/*background: hsla(46, 29%, 53%, .6) !important;*/
 }
 
@@ -49,7 +49,7 @@ body {
 }
 
 .portfoliocontainer1 {
-	background-image: url("../../images/croppedwallbg.png");
+	background-image: url("../images/croppedwallbgsmall.jpg");
 	background-attachment: fixed;
 	height: auto;
 }
@@ -59,17 +59,17 @@ body {
 }
 
 .contacts {
-	background-image: url("../../images/croppedwallbg.png");
+	background-image: url("../images/croppedwallbgsmall.jpg");
 	background-attachment: fixed;
 }
 
 .dividerbg {
-	/*background-image: url("../../images/croppedwallbg.png");*/
+	/*background-image: url("../../images/croppedwallbgsmall.jpg");*/
 	background-attachment: fixed;
 	height: 13vh;
 }
 .dividerbgsmall {
-	/*background-image: url("../../images/croppedwallbg.png");*/
+	/*background-image: url("../../images/croppedwallbgsmall.jpg");*/
 	background-attachment: fixed;
 	height: 3rem;
 }
@@ -90,7 +90,7 @@ figure {
 	max-height: 80vh;
 }
 .dividerbgsmall1 {
-	/*background-image: url("../../images/croppedwallbg.png");*/
+	/*background-image: url("../../images/croppedwallbgsmall.jpg");*/
 	background-attachment: fixed;
 	height: 3rem;
 }
