@@ -22,3 +22,20 @@ The wireframes, for the most part, are also straight foreword. I am little confu
 *  http://fancyapps.com/fancybox/3/ (fancybox)
 
 ### Grade Tier IV
+
+## Milestone 3
+
+### Feedback
+
+Your site looks great, and your content is short, but to the point. I really enjoy your design as well.
+
+After running your site through [W3 Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnickpascetti.com%2F) it pointed out that you have a few warnings, which aren't major, but you have a fatal error. It can be fixed extremely easily, once you visit the validator link and cleanup your code a bit.
+
+Overall you've done a great job on Milestone 3, and pass with a [Tier III](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). Great job!
+
+Your overall grade across all of your PWP Milestones is 32/40 points (80%).
+
+* Milestone 1 - 20%: Tier III 30(0.2) = 6
+* Milestone 2a - 20%: Tier IV 40(0.2) = 8
+* Milestone 2b - 10%: Tier III 30(0.1) = 3
+* Milestone 3 - 50%: Tier III 30(0.5) = 15
