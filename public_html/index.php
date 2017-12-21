@@ -126,6 +126,7 @@
 			<h5 class="text-center">HTML</h5>
 			<h5 class="text-center">CSS</h5>
 			<h5 class="text-center">MySQL</h5>
+			<h5 class="text-center">PHP</h5>
 			<h5 class="text-center">JavaScript</h5>
 			<h5 class="text-center mb-0 pb-3">Angular</h5>
 		</div>
